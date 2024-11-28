@@ -8,8 +8,8 @@
 - 
 
 ## Implementations
-[ark](https://github.com/ark-network/ark)![stars](https://img.shields.io/github/stars/ark-network/ark.svg?style=social)
-[bark](https://codeberg.org/ark-bitcoin/bark) - A Rust implementation of the Ark protocol on bitcoin
-[clArk](https://github.com/ark-network/clArk)![stars](https://img.shields.io/github/stars/ark-network/clArk.svg?style=social)
+- [ark](https://github.com/ark-network/ark)![stars](https://img.shields.io/github/stars/ark-network/ark.svg?style=social)
+- [bark](https://codeberg.org/ark-bitcoin/bark) - A Rust implementation of the Ark protocol on bitcoin
+- [clArk](https://github.com/ark-network/clArk)![stars](https://img.shields.io/github/stars/ark-network/clArk.svg?style=social)
 
  
