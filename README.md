@@ -1,4 +1,4 @@
-
+![image](https://github.com/user-attachments/assets/2717538d-ffd2-4d8d-9678-e6bb0eb972d0)
 
 ## Protocol
 - [Ark protocol](https://ark-protocol.org/)
@@ -12,4 +12,6 @@
 - [bark](https://codeberg.org/ark-bitcoin/bark) - A Rust implementation of the Ark protocol on bitcoin
 - [clArk](https://github.com/ark-network/clArk)![stars](https://img.shields.io/github/stars/ark-network/clArk.svg?style=social)
 
+## Presentations
+- [Banking on Ark](https://www.youtube.com/watch?v=ag-z-29ptbI) - Banking on Ark talk by Marco Argentieri with [slides](https://docs.google.com/presentation/d/1HdWag6gMU4nFgB_s9RLmYLfBVERyZFjy3_xzd3hSmbk/edit#slide=id.g26fdbd1c56e_0_50) 
  
