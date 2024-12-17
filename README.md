@@ -5,33 +5,33 @@ The goal and result of the Ark protocol is a payments system where people can ma
 Ark is a scaling solution for Bitcoin that involves moving transactions off-chain. Ark executes transactions outside of the Bitcoin main chain but posts transaction data back on-chain in a compressed format. Ark servers bundle multiple off-chain transactions into large batches before submitting them to the Bitcoin blockchain. This method spreads fixed costs across multiple transactions in each batch, significantly reducing fees for end-users.
 
 
-## Protocol
+### Protocol
 - [Ark protocol](https://ark-protocol.org/)
 - [Introducting Ark v2](https://brqgoo.medium.com/introducing-ark-v2-2e7ab378e87b) - updated Ark protocol proposal 
 - [Ark Protocol intro](https://docs.second.tech/protocol/intro/) - Intro to Ark protocol by Second
 - [Ark deep dive](https://web.archive.org/web/20240328181345/https://www.arkpill.me/deep-dive) - Original Ark deep dive by Burak
 
 
-## Implementations
+### Implementations
 - [ark](https://github.com/ark-network/ark) - Ark labs daemon 
 - [clArk - now deprecated](https://github.com/ark-network/clArk) - covenetless ark daemon from Ark Labs
 - [bark](https://codeberg.org/ark-bitcoin/bark) - A Rust implementation of the Ark protocol on bitcoin by Second
 
-## Developer resources
-### Documentation
+### Developer resources
+#### Documentation
 - [Get started with ark](https://arkdev.info/docs/developers/get-started) - Ark Labs how to for developers
 - [Getting started with bark](https://docs.second.tech/getting-started/introduction/) - Second tech how to for developers
-### SDK
+#### SDK
 - [ark sdk](https://arkdev.info/docs/developers/sdk/go) - SDK by Ark Labs
 
 
-## Reading
-### Ark V2 
+### Reading
+#### Ark V2 
 - [Covenant-less Ark](https://arkdev.info/blog/ark-release-v0.2)
 - [Unlocking Liquidity Before Shared Output Expiration](https://arkdev.info/blog/unlock-liquidity-before-shared-output-expiration)
 - [First Ark transaction on mainnet](https://blog.second.tech/demoing-the-first-ark-transactions-on-bitcoin-mainnet/)
 
-### Ark v1 reading
+#### Ark v1 reading
 - [ARK video from Bitcoin Miami 2023](https://bitcointv.com/w/pVk3bPfKZ7YqDzsNZjz9tf?start=4h9m28s)
 - [ARK presentation from Bitcoin Miami 2023](https://docs.google.com/presentation/d/1xKIJt4CnUCFfxhIwDj_kW0Ecr0NcvN5bZ4SQexGJfmk/edit?usp=sharing)
 - [[bitcoin-dev] Ark: An Alternative Privacy-preserving Second Layer Solution](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2023-May/021694.html)
@@ -44,11 +44,11 @@ Ark is a scaling solution for Bitcoin that involves moving transactions off-chai
 - [pippellia's Video Ark Explained - Bitcoin Layer 2 Protocol](https://rumble.com/v3nf9vd-ark-explained-bitcoin-layer-2-protocol.html)
 
   
-## Blogs
+### Blogs
 - [arkdev.info blog](https://arkdev.info/blog) - Ark Labs blog
 - [Second's blog](https://blog.second.tech/) - Second blog
 
-## Presentations and podcasts
+### Presentations and podcasts
 - [Steven Roose on Ark](https://bitcointv.com/w/iSg88hQLVGKicujZQvvYc6) - BitDev conference at Taipei Tech Summit
 - [Banking on Ark](https://www.youtube.com/watch?v=ag-z-29ptbI) - Banking on Ark talk by Marco Argentieri with [slides](https://docs.google.com/presentation/d/1HdWag6gMU4nFgB_s9RLmYLfBVERyZFjy3_xzd3hSmbk/edit#slide=id.g26fdbd1c56e_0_50)
 - [SLP482 Burak – Ark: A new L2 protocol for Bitcoin](https://stephanlivera.com/episode/482/) - Burak on Stephan Livera Podcast
@@ -60,8 +60,23 @@ Ark is a scaling solution for Bitcoin that involves moving transactions off-chai
 - [Scaling Bitcoin to 2050 w/ Shinobi, Marco Argentieri, Simanta Gautam & Alex Bosworth](https://www.youtube.com/watch?v=IPmjIg7IaR8)
 - [Transforming Bitcoin: Marco Agentieri’s Vision with Ark Labs](https://www.youtube.com/watch?v=GrvsENa9Zm4)
 
-## Communites
+### Communites
 - [Telegram community](https://t.me/ark_bitcoin) - Ark protocol telegram community
 - [Ark Labs discord](https://discord.com/invite/5XwckYtXAG) - Ark Labs discord community
 
+### Related Resources
 
+To explore other aspects of the Bitcoin and freedom tech ecosystem, check out these additional resource directories:
+- [nostr.net](https://www.nostr.net) - A complete guide to Nostr - projects, implementations, developer tools and all other resources
+- [liquidnetwork.wiki](https://liquidnetwork.wiki) - A curated list of Liquid Network resources, libraries, tools and applications
+- [pubky.tech](https://pubky.tech) - Pubky, an open protocol for censorship resistant web applications
+- [dlc.wiki](https://www.dlc.wiki) - Everything you need to know about Discreet Log Contracts
+- [ungovernable.tech](https://ungovernable.tech) - A collection of resources on encryption, privacy tools, and decentralized technologies
+- [lightning-network.tech](https://www.lightning-network.tech/)  - Essential tools, guides, and communities for Bitcoin Lightning Network node operators.
+- [ark-protocol.com](https://ark-protocol.com) - A directory of Ark protocol resources, libraries, tools and applications
+
+### Contributing
+
+If you'd like to add something to this list, please submit a [Pull Request on GitHub](https://github.com/aljazceru/awesome-ark-protocol/).
+
+This directory is maintained by [aljaz](https://disobey.dev/contact/). Your contributions help keep this information up-to-date and valuable.
