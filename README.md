@@ -23,7 +23,20 @@ Ark is a scaling solution for Bitcoin that involves moving transactions off-chai
 - [Covenant-less Ark](https://arkdev.info/blog/ark-release-v0.2)
 - [Unlocking Liquidity Before Shared Output Expiration](https://arkdev.info/blog/unlock-liquidity-before-shared-output-expiration)
 - [First Ark transaction on mainnet](https://blog.second.tech/demoing-the-first-ark-transactions-on-bitcoin-mainnet/)
-- 
+
+### Ark v1 reading
+- [ARK video from Bitcoin Miami 2023](https://bitcointv.com/w/pVk3bPfKZ7YqDzsNZjz9tf?start=4h9m28s)
+- [ARK presentation from Bitcoin Miami 2023](https://docs.google.com/presentation/d/1xKIJt4CnUCFfxhIwDj_kW0Ecr0NcvN5bZ4SQexGJfmk/edit?usp=sharing)
+- [[bitcoin-dev] Ark: An Alternative Privacy-preserving Second Layer Solution](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2023-May/021694.html)
+- [Introducing Ark Blog Post](https://burakkeceli.medium.com/introducing-ark-6f87ae45e272)
+- [Rijndael's write up on how Ark works](https://primal.net/thread/note1cuv7mg7z0w7jvwp9mlsu0zt6acnw54avaj5r5zgdkxlpjnqp3g0s5c0yht)
+- [RubenSomsen's Simplest Ark Explanation](https://gist.github.com/RubenSomsen/a394beb1dea9e47e981216768e007454)
+- [Ark Whiteboard Masterclass with Burak & Robin](https://youtu.be/EocWax43QgQ)
+- [Bitcoin magazine: Introducing Ark](https://bitcoinmagazine.com/technical/how-ark-plans-to-scale-private-bitcoin-payments)
+- [BitGo blog: Will Burak’s Ark Solve Bitcoin Scaling?](https://blog.bitgo.com/will-buraks-ark-solve-bitcoin-scaling-f31e65535c3f)
+- [pippellia's Video Ark Explained - Bitcoin Layer 2 Protocol](https://rumble.com/v3nf9vd-ark-explained-bitcoin-layer-2-protocol.html)
+
+  
 ## Blogs
 - [arkdev.info blog](https://arkdev.info/blog)
 - [Second's blog](https://blog.second.tech/)
@@ -42,3 +55,4 @@ Ark is a scaling solution for Bitcoin that involves moving transactions off-chai
 
 ## Communites
 - [Telegram community](https://t.me/ark_bitcoin)
+- [Ark Labs discord](https://discord.com/invite/5XwckYtXAG)
