@@ -24,7 +24,9 @@ Ark is a scaling solution for Bitcoin that involves moving transactions off-chai
 ### SDK
 - [ark sdk](https://arkdev.info/docs/developers/sdk/go) - SDK by Ark Labs
 
-## Ark V2 Reading
+
+## Reading
+### Ark V2 
 - [Covenant-less Ark](https://arkdev.info/blog/ark-release-v0.2)
 - [Unlocking Liquidity Before Shared Output Expiration](https://arkdev.info/blog/unlock-liquidity-before-shared-output-expiration)
 - [First Ark transaction on mainnet](https://blog.second.tech/demoing-the-first-ark-transactions-on-bitcoin-mainnet/)
@@ -43,8 +45,8 @@ Ark is a scaling solution for Bitcoin that involves moving transactions off-chai
 
   
 ## Blogs
-- [arkdev.info blog](https://arkdev.info/blog)
-- [Second's blog](https://blog.second.tech/)
+- [arkdev.info blog](https://arkdev.info/blog) - Ark Labs blog
+- [Second's blog](https://blog.second.tech/) - Second blog
 
 ## Presentations and podcasts
 - [Steven Roose on Ark](https://bitcointv.com/w/iSg88hQLVGKicujZQvvYc6) - BitDev conference at Taipei Tech Summit
@@ -59,7 +61,7 @@ Ark is a scaling solution for Bitcoin that involves moving transactions off-chai
 - [Transforming Bitcoin: Marco Agentieri’s Vision with Ark Labs](https://www.youtube.com/watch?v=GrvsENa9Zm4)
 
 ## Communites
-- [Telegram community](https://t.me/ark_bitcoin)
-- [Ark Labs discord](https://discord.com/invite/5XwckYtXAG)
+- [Telegram community](https://t.me/ark_bitcoin) - Ark protocol telegram community
+- [Ark Labs discord](https://discord.com/invite/5XwckYtXAG) - Ark Labs discord community
 
 
