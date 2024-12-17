@@ -13,13 +13,18 @@ Ark is a scaling solution for Bitcoin that involves moving transactions off-chai
 
 
 ## Implementations
-- [ark](https://github.com/ark-network/ark)
-- [bark](https://codeberg.org/ark-bitcoin/bark) - A Rust implementation of the Ark protocol on bitcoin
+- [ark](https://github.com/ark-network/ark) - Ark labs daemon 
+- [clArk - now deprecated](https://github.com/ark-network/clArk) - covenetless ark daemon from Ark Labs
+- [bark](https://codeberg.org/ark-bitcoin/bark) - A Rust implementation of the Ark protocol on bitcoin by Second
 
-#### Deprecated implementations
-- [clArk](https://github.com/ark-network/clArk)![stars](https://img.shields.io/github/stars/ark-network/clArk.svg?style=social)
+## Developer resources
+### Documentation
+- [Get started with ark](https://arkdev.info/docs/developers/get-started) - Ark Labs how to for developers
+- [Getting started with bark](https://docs.second.tech/getting-started/introduction/) - Second tech how to for developers
+### SDK
+- [ark sdk](https://arkdev.info/docs/developers/sdk/go) - SDK by Ark Labs
 
-## Reading
+## Ark V2 Reading
 - [Covenant-less Ark](https://arkdev.info/blog/ark-release-v0.2)
 - [Unlocking Liquidity Before Shared Output Expiration](https://arkdev.info/blog/unlock-liquidity-before-shared-output-expiration)
 - [First Ark transaction on mainnet](https://blog.second.tech/demoing-the-first-ark-transactions-on-bitcoin-mainnet/)
@@ -56,3 +61,5 @@ Ark is a scaling solution for Bitcoin that involves moving transactions off-chai
 ## Communites
 - [Telegram community](https://t.me/ark_bitcoin)
 - [Ark Labs discord](https://discord.com/invite/5XwckYtXAG)
+
+
