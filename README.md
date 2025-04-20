@@ -23,7 +23,12 @@ Ark is a scaling solution for Bitcoin that involves moving transactions off-chai
 - [Getting started with bark](https://docs.second.tech/getting-started/introduction/) - Second tech how to for developers
 #### SDK
 - [ark sdk](https://arkdev.info/docs/developers/sdk/go) - SDK by Ark Labs
+- [ark-rs](https://github.com/ArkLabsHQ/ark-rs) - rust sdk by Ark Labs
+#### Faucets
+- [munitynet faucet](https://mutinynet.arkade.money/) faucet for mutinynet
 
+#### Projects using Ark
+- [coinflip](https://coinflip.casino/) - coinflip game implemented with ark
 
 ### Reading
 #### Ark V2 
