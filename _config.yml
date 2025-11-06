@@ -6,3 +6,5 @@ plugins:
 
 show_downloads: false
 google_analytics: G-S6L2C90HW4
+plausible: ark-protocol.com
+plausible_script_url: https://analytics.cypherpunk.cloud/js/script.js
