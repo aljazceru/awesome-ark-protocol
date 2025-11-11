@@ -14,7 +14,7 @@ Ark is a scaling solution for Bitcoin that involves moving transactions off-chai
 
 ### Implementations
 - [Arkade](https://docs.arkadeos.com/) - An Operating System For Programmable Money by [Ark Labs](https://arklabs.xyz)
-- [bark](https://gitlabs.com/ark-bitcoin/bark) - A Rust implementation of the Ark protocol by [Second](https://second.tech)
+- [bark](https://gitlab.com/ark-bitcoin/bark) - A Rust implementation of the Ark protocol by [Second](https://second.tech)
 
 ### Developer resources
 
