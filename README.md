@@ -24,7 +24,7 @@ Ark is a scaling solution for Bitcoin that involves moving transactions off-chai
 #### SDKs & Libraries
 - [ark-ts](https://github.com/arkade-os/ts-sdk) - Arkade TypeScript SDK by Ark Labs
 - [ark-go](https://github.com/arkade-os/go-sdk) - Arkade GO by Ark Labs
-- [ark-rs](https://github.com/arkade-os/rust-sdk)) - Arkade Rust SDK by Ark Labs
+- [ark-rs](https://github.com/arkade-os/rust-sdk) - Arkade Rust SDK by Ark Labs
 - [bark-wallet](https://docs.rs/bark-wallet/latest/bark/) - bark Rust API reference by Second
 - [boltz-swap](https://github.com/arkade-os/boltz-swap) - lightning swaps with boltz for Arkade
 
