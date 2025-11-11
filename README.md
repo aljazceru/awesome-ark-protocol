@@ -53,6 +53,7 @@ Ark is a scaling solution for Bitcoin that involves moving transactions off-chai
 - [Unlocking Liquidity Before Shared Output Expiration](https://blog.arklabs.xyz/unlock-liquidity-before-shared-output-expiration/)
 - [First Ark transaction on mainnet](https://blog.second.tech/demoing-the-first-ark-transactions-on-bitcoin-mainnet/)
 - [Introducing Erk and hArk - new Ark variants](https://blog.second.tech/erk-update/)
+- [What's the opportunity cost of Ark liquidity](https://blog.second.tech/survey-of-bitcoin-yield/)
 
 #### Ark v1 reading
 - [ARK video from Bitcoin Miami 2023](https://bitcointv.com/w/pVk3bPfKZ7YqDzsNZjz9tf?start=4h9m28s)
