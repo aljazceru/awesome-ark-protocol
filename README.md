@@ -63,7 +63,7 @@ Ark is a scaling solution for Bitcoin that involves moving transactions off-chai
 
 ### Communites
 - [Telegram community](https://t.me/ark_bitcoin) - Ark protocol Telegram community
-- [Ark Labs Discord](https://discord.com/invite/5XwckYtXAG) - Ark Labs' Discord community
+- [Arkade community](https://t.me/arkade_os) - Arkade telegram community
 - [Second community](https://community.second.tech) - Second's community forum
 - [Second's bark chat](https://chat.second.tech) - Second's technical support chat, hosted on Zulip
 
