@@ -1,40 +1,47 @@
 Ark is a layer-two protocol for making off-chain Bitcoin transactions. Initially published on the bitcoin-dev mailing list as TBDXXX by Burak, is has since been named Ark and the protocol design has advanced significantly.
 
-The goal and result of the Ark protocol is a payments system where people can make Bitcoin transactions at very low cost and without requiring any setup. The Ark model very closely resembles the UTXO model, which is a key differentiator with Lightning.
+The Ark protocol is a payments system where people can make Bitcoin transactions at very low cost and without requiring any setup. The Ark model very closely resembles the UTXO model, which is a key differentiator with Lightning.
 
 Ark is a scaling solution for Bitcoin that involves moving transactions off-chain. Ark executes transactions outside of the Bitcoin main chain but posts transaction data back on-chain in a compressed format. Ark servers bundle multiple off-chain transactions into large batches before submitting them to the Bitcoin blockchain. This method spreads fixed costs across multiple transactions in each batch, significantly reducing fees for end-users.
 
-
 ### Protocol
-- [Ark protocol](https://ark-protocol.org/)
-- [Introducting Ark v2](https://brqgoo.medium.com/introducing-ark-v2-2e7ab378e87b) - updated Ark protocol proposal 
-- [Ark Protocol intro](https://docs.second.tech/protocol/intro/) - Intro to Ark protocol by Second
+- [Ark protocol](https://ark-protocol.org/) - Introduction to Ark maintained by [Steven Roose](https://github.com/stevenroose)
+- [Introducting Ark v2](https://brqgoo.medium.com/introducing-ark-v2-2e7ab378e87b) - Updated Ark protocol proposal 
+- [Ark protocol intro](https://docs.second.tech/protocol/intro/) - Intro to the Ark protocol by [Second](https://second.tech)
+- [Ark protocol intro](https://docs.arklabs.xyz/ark/) - Intro to the Ark protocol by [Ark Labs](https://arklabs.xyz)
 - [Ark deep dive](https://web.archive.org/web/20240328181345/https://www.arkpill.me/deep-dive) - Original Ark deep dive by Burak
 
-
 ### Implementations
-- [ark](https://github.com/ark-network/ark) - Ark labs daemon 
-- [clArk - now deprecated](https://github.com/ark-network/clArk) - covenetless ark daemon from Ark Labs
-- [bark](https://codeberg.org/ark-bitcoin/bark) - A Rust implementation of the Ark protocol on bitcoin by Second
+- [Arkade](https://github.com/ark-network/ark) - A Go implementation of the Ark protocol by [Ark Labs](https://arklabs.xyz)
+- [bark](https://gitlabs.com/ark-bitcoin/bark) - A Rust implementation of the Ark protocol by [Second](https://second.tech)
 
 ### Developer resources
+
 #### Documentation
-- [Get started with ark](https://arkdev.info/docs/developers/get-started) - Ark Labs how to for developers
-- [Getting started with bark](https://docs.second.tech/getting-started/introduction/) - Second tech how to for developers
+- [Getting started with Arkade](https://docs.arkadeos.com) - Ark Labs' how-to for developers
+- [Getting started with bark](https://docs.second.tech/getting-started/introduction/) - Second's how-to for developers
+
 #### SDK
-- [ark sdk](https://arkdev.info/docs/developers/sdk/go) - SDK by Ark Labs
-- [ark-rs](https://github.com/ArkLabsHQ/ark-rs) - rust sdk by Ark Labs
+- [ark-ts](https://github.com/arkade-os/ts-sdk) - Arkade TypeScript SDK by Ark Labs
+- [ark-rs](https://github.com/ArkLabsHQ/ark-rs) - Arkade Rust SDK by Ark Labs
+- [bark-wallet](https://docs.rs/bark-wallet/latest/bark/) - bark Rust API reference by Second
+
 #### Faucets
-- [munitynet faucet](https://mutinynet.arkade.money/) faucet for mutinynet
+- [Arkade munitynet faucet](https://mutinynet.arkade.money/) - Faucet for mutinynet
+- [bark signet faucet](https://signet.2nd.dev) - Faucet for signet
 
 #### Projects using Ark
-- [coinflip](https://coinflip.casino/) - coinflip game implemented with ark
+- [coinflip](https://coinflip.casino/) - Coinflip game implemented with Ark
+- [Byte store](https://signet.2nd.dev/store) - Mock online store for testing Ark payments on signet
+- [Noah wallet](https://alpha.noahwallet.io) - Mobile-native bitcoin wallet built on Ark
 
 ### Reading
-#### Ark V2 
-- [Covenant-less Ark](https://arkdev.info/blog/ark-release-v0.2)
-- [Unlocking Liquidity Before Shared Output Expiration](https://arkdev.info/blog/unlock-liquidity-before-shared-output-expiration)
+
+#### Ark v2 reading
+- [Covenant-less Ark](https://github.com/arkade-os/arkd/releases/tag/v0.2.0)
+- [Unlocking Liquidity Before Shared Output Expiration](https://blog.arklabs.xyz/unlock-liquidity-before-shared-output-expiration/)
 - [First Ark transaction on mainnet](https://blog.second.tech/demoing-the-first-ark-transactions-on-bitcoin-mainnet/)
+- [Introducing Erk and hArk - new Ark variants](https://blog.second.tech/erk-update/)
 
 #### Ark v1 reading
 - [ARK video from Bitcoin Miami 2023](https://bitcointv.com/w/pVk3bPfKZ7YqDzsNZjz9tf?start=4h9m28s)
@@ -48,10 +55,9 @@ Ark is a scaling solution for Bitcoin that involves moving transactions off-chai
 - [BitGo blog: Will Burak’s Ark Solve Bitcoin Scaling?](https://blog.bitgo.com/will-buraks-ark-solve-bitcoin-scaling-f31e65535c3f)
 - [pippellia's Video Ark Explained - Bitcoin Layer 2 Protocol](https://rumble.com/v3nf9vd-ark-explained-bitcoin-layer-2-protocol.html)
 
-  
 ### Blogs
-- [arkdev.info blog](https://arkdev.info/blog) - Ark Labs blog
-- [Second's blog](https://blog.second.tech/) - Second blog
+- [Ark Labs' blog](https://blog.arklabs.xyz)
+- [Second's blog](https://blog.second.tech/)
 
 ### Presentations and podcasts
 - [Steven Roose on Ark](https://bitcointv.com/w/iSg88hQLVGKicujZQvvYc6) - BitDev conference at Taipei Tech Summit
@@ -64,13 +70,15 @@ Ark is a scaling solution for Bitcoin that involves moving transactions off-chai
 - [Updates on Ark development - one year later](https://stephanlivera.com/episode/584/)
 - [Scaling Bitcoin to 2050 w/ Shinobi, Marco Argentieri, Simanta Gautam & Alex Bosworth](https://www.youtube.com/watch?v=IPmjIg7IaR8)
 - [Transforming Bitcoin: Marco Agentieri’s Vision with Ark Labs](https://www.youtube.com/watch?v=GrvsENa9Zm4)
+- [Ark explained in under 14 minutes](https://youtu.be/WvwmLv0SgAc?si=Nc0yo79MD-BJPhAZ)
 
 ### Communites
-- [Telegram community](https://t.me/ark_bitcoin) - Ark protocol telegram community
-- [Ark Labs discord](https://discord.com/invite/5XwckYtXAG) - Ark Labs discord community
+- [Telegram community](https://t.me/ark_bitcoin) - Ark protocol Telegram community
+- [Ark Labs Discord](https://discord.com/invite/5XwckYtXAG) - Ark Labs' Discord community
+- [Second community](https://community.second.tech) - Second's community forum
+- [Second's bark chat](https://chat.second.tech) - Second's technical support chat, hosted on Zulip
 
 ### Related Resources
-
 To explore other aspects of the Bitcoin and freedom tech ecosystem, check out these additional resource directories:
 - [nostr.net](https://www.nostr.net) - A complete guide to Nostr - projects, implementations, developer tools and all other resources
 - [liquidnetwork.wiki](https://liquidnetwork.wiki) - A curated list of Liquid Network resources, libraries, tools and applications
