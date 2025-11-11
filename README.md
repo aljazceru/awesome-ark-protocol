@@ -12,7 +12,7 @@ Ark is a scaling solution for Bitcoin that involves moving transactions off-chai
 - [Ark deep dive](https://web.archive.org/web/20240328181345/https://www.arkpill.me/deep-dive) - Original Ark deep dive by Burak
 
 ### Implementations
-- [Arkade](https://github.com/ark-network/ark) - A Go implementation of the Ark protocol by [Ark Labs](https://arklabs.xyz)
+- [Arkade](https://docs.arkadeos.com/)) - An Operating System For Programmable Money by [Ark Labs](https://arklabs.xyz)
 - [bark](https://gitlabs.com/ark-bitcoin/bark) - A Rust implementation of the Ark protocol by [Second](https://second.tech)
 
 ### Developer resources
@@ -21,23 +21,33 @@ Ark is a scaling solution for Bitcoin that involves moving transactions off-chai
 - [Getting started with Arkade](https://docs.arkadeos.com) - Ark Labs' how-to for developers
 - [Getting started with bark](https://docs.second.tech/getting-started/introduction/) - Second's how-to for developers
 
-#### SDK
+#### SDKs & Libraries
 - [ark-ts](https://github.com/arkade-os/ts-sdk) - Arkade TypeScript SDK by Ark Labs
-- [ark-rs](https://github.com/ArkLabsHQ/ark-rs) - Arkade Rust SDK by Ark Labs
+- [ark-go](https://github.com/arkade-os/go-sdk) - Arkade GO by Ark Labs
+- [ark-rs](https://github.com/arkade-os/rust-sdk)) - Arkade Rust SDK by Ark Labs
 - [bark-wallet](https://docs.rs/bark-wallet/latest/bark/) - bark Rust API reference by Second
+- [boltz-swap](https://github.com/arkade-os/boltz-swap) - lightning swaps with boltz for Arkade
 
 #### Faucets
 - [Arkade munitynet faucet](https://mutinynet.arkade.money/) - Faucet for mutinynet
 - [bark signet faucet](https://signet.2nd.dev) - Faucet for signet
 
+
 #### Projects using Ark
-- [coinflip](https://coinflip.casino/) - Coinflip game implemented with Ark
+- [arkd](https://github.com/arkade-os/arkd) -  Ark Server implementation that powers Arkade 
+- [arkade.money](https://arkade.money/) - Web wallt by Ark Labs
+- [arkash](https://github.com/supertestnet/arkash) - Supertestnet's ecash like implementation of Ark
 - [Byte store](https://signet.2nd.dev/store) - Mock online store for testing Ark payments on signet
+- [coinflip](https://coinflip.casino/) - Coinflip game implemented with Ark
+- [fulmine](https://github.com/ArkLabsHQ/fulmine) - Bitcoin wallet daemon that enables swap providers and payment hubs to optimize Lightning Network channel liquidity while minimizing on-chain fees 
 - [Noah wallet](https://alpha.noahwallet.io) - Mobile-native bitcoin wallet built on Ark
+- [NArk](https://github.com/ArkLabsHQ/NArk) - Ark payment functionality with BTCPayServer
+- [snap](https://github.com/arkade-os/snap) - Metamask Snap that brings Bitcoin, Lightning and Arkade to your browser
 
 ### Reading
 
 #### Ark v2 reading
+- [Arkade - technical Primer](https://docs.arkadeos.com/primer) 
 - [Covenant-less Ark](https://github.com/arkade-os/arkd/releases/tag/v0.2.0)
 - [Unlocking Liquidity Before Shared Output Expiration](https://blog.arklabs.xyz/unlock-liquidity-before-shared-output-expiration/)
 - [First Ark transaction on mainnet](https://blog.second.tech/demoing-the-first-ark-transactions-on-bitcoin-mainnet/)
