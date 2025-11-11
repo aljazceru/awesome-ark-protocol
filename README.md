@@ -5,6 +5,7 @@ The Ark protocol is a payments system where people can make Bitcoin transactions
 Ark is a scaling solution for Bitcoin that involves moving transactions off-chain. Ark executes transactions outside of the Bitcoin main chain but posts transaction data back on-chain in a compressed format. Ark servers bundle multiple off-chain transactions into large batches before submitting them to the Bitcoin blockchain. This method spreads fixed costs across multiple transactions in each batch, significantly reducing fees for end-users.
 
 ### Protocol
+- [Arkade](https://arkadeos.com/vision) - Arkade, A Virtual Execution Layer for Bitcoin-Native Applications by [Ark Labs](https://arklabs.xyz)
 - [Ark protocol](https://ark-protocol.org/) - Introduction to Ark maintained by [Steven Roose](https://github.com/stevenroose)
 - [Introducting Ark v2](https://brqgoo.medium.com/introducing-ark-v2-2e7ab378e87b) - Updated Ark protocol proposal 
 - [Ark protocol intro](https://docs.second.tech/protocol/intro/) - Intro to the Ark protocol by [Second](https://second.tech)
