@@ -13,7 +13,7 @@ Ark is a scaling solution for Bitcoin that involves moving transactions off-chai
 - [Ark deep dive](https://web.archive.org/web/20240328181345/https://www.arkpill.me/deep-dive) - Original Ark deep dive by Burak
 
 ### Implementations
-- [Arkade](https://docs.arkadeos.com/)) - An Operating System For Programmable Money by [Ark Labs](https://arklabs.xyz)
+- [Arkade](https://docs.arkadeos.com/) - An Operating System For Programmable Money by [Ark Labs](https://arklabs.xyz)
 - [bark](https://gitlabs.com/ark-bitcoin/bark) - A Rust implementation of the Ark protocol by [Second](https://second.tech)
 
 ### Developer resources
