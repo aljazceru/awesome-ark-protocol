@@ -42,6 +42,8 @@ Ark is a scaling solution for Bitcoin that involves moving transactions off-chai
 - [Noah wallet](https://alpha.noahwallet.io) - Mobile-native bitcoin wallet built on Ark
 - [NArk](https://github.com/ArkLabsHQ/NArk) - Ark payment functionality with BTCPayServer
 - [snap](https://github.com/arkade-os/snap) - Metamask Snap that brings Bitcoin, Lightning and Arkade to your browser
+- [LendaSat](https://lendasat.com) - Bitcoin-backed lending on Arkade (For now only accessible via [arkade.money](https://arkade.money/)
+- [LendaSwap](https://swap.lendasat.com) - Cross-chain Atomic Swaps powered by Arkade. 
 
 
 ### Blogs
