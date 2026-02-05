@@ -24,6 +24,8 @@ Ark is a scaling solution for Bitcoin that involves moving transactions off-chai
 - [ark-ts](https://github.com/arkade-os/ts-sdk) - Arkade TypeScript SDK by Ark Labs
 - [ark-go](https://github.com/arkade-os/go-sdk) - Arkade GO by Ark Labs
 - [ark-rs](https://github.com/arkade-os/rust-sdk) - Arkade Rust SDK by Ark Labs
+- [arkade-assets](https://github.com/ArkLabsHQ/arkade-assets) - Native assets framework for Bitcoin - stablecoins, tokens, and digital assets on Arkade with UTXO-based architecture
+- [arkade-compiler](https://github.com/arkade-os/compiler) - High-level language compiler for Arkade Script - write Bitcoin smart contracts in a structured, Ivy-like syntax
 - [arke](https://github.com/GBKS/arke) - macOS wallet prototype for interacting with Ark protocol (second.tech implementation) 
 - [bark-wallet](https://docs.rs/bark-wallet/latest/bark/) - bark Rust API reference by Second
 - [boltz-swap](https://github.com/arkade-os/boltz-swap) - lightning swaps with boltz for Arkade
@@ -36,6 +38,7 @@ Ark is a scaling solution for Bitcoin that involves moving transactions off-chai
 #### Projects using Ark
 - [arkd](https://github.com/arkade-os/arkd) -  Ark Server implementation that powers Arkade 
 - [arkade.money](https://arkade.money/) - Web wallt by Ark Labs
+- [arkade-escrow](https://github.com/ArkLabsHQ/arkade-escrow) - Escrow contract demo showcasing trustless escrow functionality on Arkade
 - [arkash](https://github.com/supertestnet/arkash) - Supertestnet's ecash like implementation of Ark
 - [Byte store](https://signet.2nd.dev/store) - Mock online store for testing Ark payments on signet
 - [coinflip](https://coinflip.casino/) - Coinflip game implemented with Ark
@@ -82,6 +85,8 @@ Ark is a scaling solution for Bitcoin that involves moving transactions off-chai
 - [First Ark transaction on mainnet](https://blog.second.tech/demoing-the-first-ark-transactions-on-bitcoin-mainnet/)
 - [Introducing Erk and hArk - new Ark variants](https://blog.second.tech/erk-update/)
 - [What's the opportunity cost of Ark liquidity](https://blog.second.tech/survey-of-bitcoin-yield/)
+- [Native Assets on Bitcoin: Introducing Arkade Assets](https://blog.arklabs.xyz/native-assets-on-bitcoin-introducing-arkade-assets/) - Framework for bringing stablecoins and digital assets to Bitcoin via Arkade
+- [Bark's unified mailbox](https://blog.second.tech/unified-mailbox/) - New unified notification system for Bark wallets (Feb 2026)
 
 #### Ark v1 reading
 - [ARK video from Bitcoin Miami 2023](https://bitcointv.com/w/pVk3bPfKZ7YqDzsNZjz9tf?start=4h9m28s)
