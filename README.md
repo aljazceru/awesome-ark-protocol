@@ -28,6 +28,7 @@ Ark is a scaling solution for Bitcoin that involves moving transactions off-chai
 - [arkade-compiler](https://github.com/arkade-os/compiler) - High-level language compiler for Arkade Script - write Bitcoin smart contracts in a structured, Ivy-like syntax
 - [arke](https://github.com/GBKS/arke) - macOS wallet prototype for interacting with Ark protocol (second.tech implementation) 
 - [bark-wallet](https://docs.rs/bark-wallet/latest/bark/) - bark Rust API reference by Second
+- [barkd](https://gitlab.com/ark-bitcoin/bark/-/tree/master/bark-cli/barkd) - Daemon wallet with REST API for automation and integration, with client libraries in multiple languages by Second
 - [boltz-swap](https://github.com/arkade-os/boltz-swap) - lightning swaps with boltz for Arkade
 
 #### Faucets
@@ -84,9 +85,11 @@ Ark is a scaling solution for Bitcoin that involves moving transactions off-chai
 - [Unlocking Liquidity Before Shared Output Expiration](https://blog.arklabs.xyz/unlock-liquidity-before-shared-output-expiration/)
 - [First Ark transaction on mainnet](https://blog.second.tech/demoing-the-first-ark-transactions-on-bitcoin-mainnet/)
 - [Introducing Erk and hArk - new Ark variants](https://blog.second.tech/erk-update/)
+- [Evolving the Ark protocol using CTV and CSFS](https://delvingbitcoin.org/t/evolving-the-ark-protocol-using-ctv-and-csfs/1602) - Technical proposal for Erk and hArk variants on Delving Bitcoin forum
 - [What's the opportunity cost of Ark liquidity](https://blog.second.tech/survey-of-bitcoin-yield/)
 - [Native Assets on Bitcoin: Introducing Arkade Assets](https://blog.arklabs.xyz/native-assets-on-bitcoin-introducing-arkade-assets/) - Framework for bringing stablecoins and digital assets to Bitcoin via Arkade
 - [Bark's unified mailbox](https://blog.second.tech/unified-mailbox/) - New unified notification system for Bark wallets (Feb 2026)
+- [Introducing hArk: async forfeits and mobile-friendly refreshes](https://blog.second.tech/introducing-hark-async-forfeits-and-mobile-friendly-refreshes/) - Technical deep dive into hArk implementation with hash-lock forfeits and delegated refreshes for mobile wallets (Feb 2026)
 
 #### Ark v1 reading
 - [ARK video from Bitcoin Miami 2023](https://bitcointv.com/w/pVk3bPfKZ7YqDzsNZjz9tf?start=4h9m28s)
