@@ -24,11 +24,14 @@ Ark is a scaling solution for Bitcoin that involves moving transactions off-chai
 - [ark-ts](https://github.com/arkade-os/ts-sdk) - Arkade TypeScript SDK by Ark Labs
 - [ark-go](https://github.com/arkade-os/go-sdk) - Arkade GO by Ark Labs
 - [ark-rs](https://github.com/arkade-os/rust-sdk) - Arkade Rust SDK by Ark Labs
+- [ark-dotnet](https://github.com/arkade-os/dotnet-sdk) - Arkade C# SDK by Ark Labs
 - [arkade-assets](https://github.com/ArkLabsHQ/arkade-assets) - Native assets framework for Bitcoin - stablecoins, tokens, and digital assets on Arkade with UTXO-based architecture
 - [arkade-compiler](https://github.com/arkade-os/compiler) - High-level language compiler for Arkade Script - write Bitcoin smart contracts in a structured, Ivy-like syntax
 - [arke](https://github.com/GBKS/arke) - macOS wallet prototype for interacting with Ark protocol (second.tech implementation) 
 - [bark-wallet](https://docs.rs/bark-wallet/latest/bark/) - bark Rust API reference by Second
 - [boltz-swap](https://github.com/arkade-os/boltz-swap) - lightning swaps with boltz for Arkade
+- [libvpack-rs](https://github.com/jgmcalpine/libvpack-rs) - Universal verifier and 'life raft' for the VTXO (Virtual UTXO) primitive - independent auditability and sovereign recovery across Ark-like implementations
+- [ark-tx-builder](https://github.com/SashaZezulinsky/ark-tx-builder) - Deterministic Bitcoin transaction builders for the Ark protocol
 
 #### Faucets
 - [Arkade munitynet faucet](https://mutinynet.arkade.money/) - Faucet for mutinynet
@@ -38,8 +41,17 @@ Ark is a scaling solution for Bitcoin that involves moving transactions off-chai
 #### Projects using Ark
 - [arkd](https://github.com/arkade-os/arkd) -  Ark Server implementation that powers Arkade 
 - [arkade.money](https://arkade.money/) - Web wallt by Ark Labs
+- [Arkade Wallet](https://github.com/arkade-os/wallet) - Open-source, self-custodial Bitcoin PWA with native Ark protocol and VTXOs by Ark Labs
 - [arkade-escrow](https://github.com/ArkLabsHQ/arkade-escrow) - Escrow contract demo showcasing trustless escrow functionality on Arkade
 - [arkash](https://github.com/supertestnet/arkash) - Supertestnet's ecash like implementation of Ark
+- [ark-escrow](https://github.com/lendasat/ark-escrow) - 2-of-3 Bitcoin escrow contracts on Arkade
+- [vtxomarket](https://github.com/lendasat/vtxomarket) - Arkade assets marketplace for trading VTXO-based digital assets
+- [ArkAdmin](https://github.com/jgmcalpine/ArkAdmin) - Control plane and dashboard for the Bark Bitcoin Wallet Daemon
+- [Ark Explorer](https://github.com/blockonomics/arkexplorer) - Explorer and statistics for the Ark protocol by Blockonomics
+- [btcpay-arkade](https://github.com/ArkLabsHQ/btcpay-arkade) - BTCPayServer integration for accepting Ark payments
+- [insurance-arkade](https://github.com/tiero/insurance-arkade) - Insurance contracts built on Arkade
+- [ln-escrow-ark](https://github.com/Antisys/ln-escrow-ark) - Non-custodial Lightning escrow powered by Ark Protocol
+- [dark](https://github.com/lobbyclawy/dark) - Rust implementation of arkd (Ark protocol server)
 - [Byte store](https://signet.2nd.dev/store) - Mock online store for testing Ark payments on signet
 - [coinflip](https://coinflip.casino/) - Coinflip game implemented with Ark
 - [fulmine](https://github.com/ArkLabsHQ/fulmine) - Bitcoin wallet daemon that enables swap providers and payment hubs to optimize Lightning Network channel liquidity while minimizing on-chain fees 
@@ -47,7 +59,7 @@ Ark is a scaling solution for Bitcoin that involves moving transactions off-chai
 - [NArk](https://github.com/ArkLabsHQ/NArk) - Ark payment functionality with BTCPayServer
 - [snap](https://github.com/arkade-os/snap) - Metamask Snap that brings Bitcoin, Lightning and Arkade to your browser
 - [LendaSat](https://lendasat.com) - Bitcoin-backed lending on Arkade (For now only accessible via [arkade.money](https://arkade.money/))
-- [LendaSwap](https://swap.lendasat.com) - Cross-chain Atomic Swaps powered by Arkade. 
+- [LendaSwap](https://swap.lendasat.com) - Cross-chain Atomic Swaps powered by Arkade.
 
 
 ### Blogs
