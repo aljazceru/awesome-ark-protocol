@@ -14,6 +14,12 @@ Ark is a scaling solution for Bitcoin that involves moving transactions off-chai
 - [Arkade](https://docs.arkadeos.com/) - An Operating System For Programmable Money by [Ark Labs](https://arklabs.xyz)
 - [bark](https://gitlab.com/ark-bitcoin/bark) - A Rust implementation of the Ark protocol by [Second](https://second.tech)
 
+### Wallets
+- [Arkade CLI](https://github.com/arkade-os/cli)![stars](https://img.shields.io/github/stars/arkade-os/cli.svg?style=social) - A command-line Ark wallet for generating addresses, checking balances, and sending/receiving BTC offchain/onchain from your terminal
+
+### Explorers
+- [arkade-explorer](https://github.com/ArkLabsHQ/arkade-explorer)![stars](https://img.shields.io/github/stars/ArkLabsHQ/arkade-explorer.svg?style=social) - Arkade blockchain explorer by Ark Labs
+
 ### Developer resources
 
 #### Documentation
@@ -32,6 +38,9 @@ Ark is a scaling solution for Bitcoin that involves moving transactions off-chai
 - [boltz-swap](https://github.com/arkade-os/boltz-swap) - lightning swaps with boltz for Arkade
 - [libvpack-rs](https://github.com/jgmcalpine/libvpack-rs) - Universal verifier and 'life raft' for the VTXO (Virtual UTXO) primitive - independent auditability and sovereign recovery across Ark-like implementations
 - [ark-tx-builder](https://github.com/SashaZezulinsky/ark-tx-builder) - Deterministic Bitcoin transaction builders for the Ark protocol
+- [arkade-wdk](https://github.com/ArkLabsHQ/arkade-wdk)![stars](https://img.shields.io/github/stars/ArkLabsHQ/arkade-wdk.svg?style=social) - WDK-compatible Bitcoin wallet manager built on Arkade SDK with optional Lightning support via boltz-swap
+- [arkade-kotlin](https://github.com/shubertm/arkade-kotlin)![stars](https://img.shields.io/github/stars/shubertm/arkade-kotlin.svg?style=social) - Native Android SDK for Arkade
+- [skill](https://github.com/arkade-os/skill)![stars](https://img.shields.io/github/stars/arkade-os/skill.svg?style=social) - Arkade skills for AI agent integration — send and receive Bitcoin over Arkade, Lightning Network, and swap for USDC/USDT
 
 #### Faucets
 - [Arkade munitynet faucet](https://mutinynet.arkade.money/) - Faucet for mutinynet
@@ -60,6 +69,7 @@ Ark is a scaling solution for Bitcoin that involves moving transactions off-chai
 - [snap](https://github.com/arkade-os/snap) - Metamask Snap that brings Bitcoin, Lightning and Arkade to your browser
 - [LendaSat](https://lendasat.com) - Bitcoin-backed lending on Arkade (For now only accessible via [arkade.money](https://arkade.money/))
 - [LendaSwap](https://swap.lendasat.com) - Cross-chain Atomic Swaps powered by Arkade.
+- [taproot-assets-in-ark](https://github.com/ArkLabsHQ/taproot-assets-in-ark)![stars](https://img.shields.io/github/stars/ArkLabsHQ/taproot-assets-in-ark.svg?style=social) - Research and integration of Taproot Assets (Taro) into the Ark protocol
 
 
 ### Blogs
