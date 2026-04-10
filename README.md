@@ -16,17 +16,11 @@ Ark is a scaling solution for Bitcoin that involves moving transactions off-chai
 
 ### Wallets
 - [Arkade CLI](https://github.com/arkade-os/cli)![stars](https://img.shields.io/github/stars/arkade-os/cli.svg?style=social) - A command-line Ark wallet for generating addresses, checking balances, and sending/receiving BTC offchain/onchain from your terminal
-
 - [btc-wallet-plugin](https://github.com/jpentwickler/btc-wallet-plugin) - BTC Wallet Plugin — Arkade MCP Server for AI Agents
 - [harmoniis-wallet](https://github.com/harmoniis/harmoniis-wallet)![stars](https://img.shields.io/github/stars/harmoniis/harmoniis-wallet.svg?style=social) - Harmoniis Wallet (RGB, Webcash, Bitcoin(ARK), Identities)
-- [IbisWallet](https://github.com/aeonBTC/IbisWallet)![stars](https://img.shields.io/github/stars/aeonBTC/IbisWallet.svg?style=social) - Android Bitcoin wallet built for power users
 - [arkadeosbot-skill](https://github.com/echennells/arkadeosbot-skill) - Claude Code skill for Arkade OS Bitcoin wallet capabilities for AI agents
-- [bitcoin-ark-wallet](https://github.com/sbddesign/bitcoin-ark-wallet)![stars](https://img.shields.io/github/stars/sbddesign/bitcoin-ark-wallet.svg?style=social) - 
 - [artmak](https://github.com/sbddesign/artmak)![stars](https://img.shields.io/github/stars/sbddesign/artmak.svg?style=social) - A Bitcoin Ark wallet implemented as performance art
-- [ARKive-Wallet](https://github.com/pingu-73/ARKive-Wallet)![stars](https://img.shields.io/github/stars/pingu-73/ARKive-Wallet.svg?style=social) - Hybrid Bitcoin Wallet for On-chain Tx as well as Off chain Tx using Ark Protocol
 - [ark-wallets](https://github.com/Randy808/ark-wallets)![stars](https://img.shields.io/github/stars/Randy808/ark-wallets.svg?style=social) - A list of Bitcoin wallets compatible with the Ark protocol
-- [Ark-Bitcoin-Wallet](https://github.com/HemantKumar01/Ark-Bitcoin-Wallet)![stars](https://img.shields.io/github/stars/HemantKumar01/Ark-Bitcoin-Wallet.svg?style=social) - A simple wallet that interacts with ark network and allows offchain and onchain payments
-- [ark-wallet-cli](https://github.com/Ark-wallet/ark-wallet-cli)![stars](https://img.shields.io/github/stars/Ark-wallet/ark-wallet-cli.svg?style=social) - Ark wallet with CLI
 
 ### Explorers
 - [arkade-explorer](https://github.com/ArkLabsHQ/arkade-explorer)![stars](https://img.shields.io/github/stars/ArkLabsHQ/arkade-explorer.svg?style=social) - Arkade blockchain explorer by Ark Labs
@@ -36,7 +30,6 @@ Ark is a scaling solution for Bitcoin that involves moving transactions off-chai
 #### Documentation
 - [Getting started with Arkade](https://docs.arkadeos.com) - Ark Labs' how-to for developers
 - [Getting started with bark](https://docs.second.tech/getting-started/introduction/) - Second's how-to for developers
-
 - [docs-assets](https://github.com/arkade-os/docs-assets) - Static HTML assets for Arkade docs
 
 #### SDKs & Libraries
@@ -54,7 +47,6 @@ Ark is a scaling solution for Bitcoin that involves moving transactions off-chai
 - [arkade-wdk](https://github.com/ArkLabsHQ/arkade-wdk)![stars](https://img.shields.io/github/stars/ArkLabsHQ/arkade-wdk.svg?style=social) - WDK-compatible Bitcoin wallet manager built on Arkade SDK with optional Lightning support via boltz-swap
 - [arkade-kotlin](https://github.com/shubertm/arkade-kotlin)![stars](https://img.shields.io/github/stars/shubertm/arkade-kotlin.svg?style=social) - Native Android SDK for Arkade
 - [skill](https://github.com/arkade-os/skill)![stars](https://img.shields.io/github/stars/arkade-os/skill.svg?style=social) - Arkade skills for AI agent integration — send and receive Bitcoin over Arkade, Lightning Network, and swap for USDC/USDT
-
 - [asset-demos](https://github.com/arkade-os/asset-demos) - Demonstrates how to manage assets across the TS and Golang SDKs
 
 #### Faucets
@@ -73,6 +65,7 @@ Ark is a scaling solution for Bitcoin that involves moving transactions off-chai
 - [ArkAdmin](https://github.com/jgmcalpine/ArkAdmin) - Control plane and dashboard for the Bark Bitcoin Wallet Daemon
 - [Ark Explorer](https://github.com/blockonomics/arkexplorer) - Explorer and statistics for the Ark protocol by Blockonomics
 - [btcpay-arkade](https://github.com/ArkLabsHQ/btcpay-arkade) - BTCPayServer integration for accepting Ark payments
+- [banco](https://github.com/arkade-os/banco) - Non interactive swaps powered by Arkade Script
 - [insurance-arkade](https://github.com/tiero/insurance-arkade) - Insurance contracts built on Arkade
 - [ln-escrow-ark](https://github.com/Antisys/ln-escrow-ark) - Non-custodial Lightning escrow powered by Ark Protocol
 - [dark](https://github.com/lobbyclawy/dark) - Rust implementation of arkd (Ark protocol server)
@@ -85,8 +78,6 @@ Ark is a scaling solution for Bitcoin that involves moving transactions off-chai
 - [LendaSat](https://lendasat.com) - Bitcoin-backed lending on Arkade (For now only accessible via [arkade.money](https://arkade.money/))
 - [LendaSwap](https://swap.lendasat.com) - Cross-chain Atomic Swaps powered by Arkade.
 - [taproot-assets-in-ark](https://github.com/ArkLabsHQ/taproot-assets-in-ark)![stars](https://img.shields.io/github/stars/ArkLabsHQ/taproot-assets-in-ark.svg?style=social) - Research and integration of Taproot Assets (Taro) into the Ark protocol
-
-- [banco](https://github.com/arkade-os/banco) - Non interactive swaps powered by Arkade Script
 
 
 ### Blogs
@@ -150,10 +141,6 @@ To explore other aspects of the Bitcoin and freedom tech ecosystem, check out th
 - [lightning-network.tech](https://www.lightning-network.tech/)  - Essential tools, guides, and communities for Bitcoin Lightning Network node operators.
 - [ark-protocol.com](https://ark-protocol.com) - A directory of Ark protocol resources, libraries, tools and applications
 
-
-<!-- New additions by Borg [Daemon] - 2026-04-10 -->
-- [packages](https://github.com/arkade-os/packages)![stars](https://img.shields.io/github/stars/arkade-os/packages.svg?style=social) - 
-- [tapscripts](https://github.com/arkade-os/tapscripts)![stars](https://img.shields.io/github/stars/arkade-os/tapscripts.svg?style=social) - 
 
 ### Contributing
 
