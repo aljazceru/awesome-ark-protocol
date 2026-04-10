@@ -133,6 +133,34 @@ To explore other aspects of the Bitcoin and freedom tech ecosystem, check out th
 - [lightning-network.tech](https://www.lightning-network.tech/)  - Essential tools, guides, and communities for Bitcoin Lightning Network node operators.
 - [ark-protocol.com](https://ark-protocol.com) - A directory of Ark protocol resources, libraries, tools and applications
 
+
+<!-- Added by Borg [Daemon] - 2026-04-10 -->
+
+### Wallets (New)
+- [btc-wallet-plugin](https://github.com/jpentwickler/btc-wallet-plugin) - BTC Wallet Plugin — Arkade MCP Server for AI Agents
+- [harmoniis-wallet](https://github.com/harmoniis/harmoniis-wallet)![stars](https://img.shields.io/github/stars/harmoniis/harmoniis-wallet.svg?style=social) - Harmoniis Wallet (RGB, Webcash, Bitcoin(ARK), Identities)
+- [IbisWallet](https://github.com/aeonBTC/IbisWallet)![stars](https://img.shields.io/github/stars/aeonBTC/IbisWallet.svg?style=social) - Android Bitcoin wallet built for power users
+- [arkadeosbot-skill](https://github.com/echennells/arkadeosbot-skill) - Claude Code skill for Arkade OS Bitcoin wallet capabilities for AI agents
+- [bitcoin-ark-wallet](https://github.com/sbddesign/bitcoin-ark-wallet)![stars](https://img.shields.io/github/stars/sbddesign/bitcoin-ark-wallet.svg?style=social) - 
+- [artmak](https://github.com/sbddesign/artmak)![stars](https://img.shields.io/github/stars/sbddesign/artmak.svg?style=social) - A Bitcoin Ark wallet implemented as performance art
+- [ARKive-Wallet](https://github.com/pingu-73/ARKive-Wallet)![stars](https://img.shields.io/github/stars/pingu-73/ARKive-Wallet.svg?style=social) - Hybrid Bitcoin Wallet for On-chain Tx as well as Off chain Tx using Ark Protocol
+- [ark-wallets](https://github.com/Randy808/ark-wallets)![stars](https://img.shields.io/github/stars/Randy808/ark-wallets.svg?style=social) - A list of Bitcoin wallets compatible with the Ark protocol
+- [Ark-Bitcoin-Wallet](https://github.com/HemantKumar01/Ark-Bitcoin-Wallet)![stars](https://img.shields.io/github/stars/HemantKumar01/Ark-Bitcoin-Wallet.svg?style=social) - A simple wallet that interacts with ark network and allows offchain and onchain payments
+- [ark-wallet-cli](https://github.com/Ark-wallet/ark-wallet-cli)![stars](https://img.shields.io/github/stars/Ark-wallet/ark-wallet-cli.svg?style=social) - Ark wallet with CLI
+
+### Guides & Documentation (New)
+- [docs-assets](https://github.com/arkade-os/docs-assets) - Static HTML assets for Arkade docs
+
+### SDKs & Libraries (New)
+- [asset-demos](https://github.com/arkade-os/asset-demos) - Demonstrates how to manage assets across the TS and Golang SDKs
+
+### Projects (New)
+- [banco](https://github.com/arkade-os/banco) - Non interactive swaps powered by Arkade Script
+
+### General (New)
+- [packages](https://github.com/arkade-os/packages)![stars](https://img.shields.io/github/stars/arkade-os/packages.svg?style=social) - 
+- [tapscripts](https://github.com/arkade-os/tapscripts)![stars](https://img.shields.io/github/stars/arkade-os/tapscripts.svg?style=social) - 
+
 ### Contributing
 
 If you'd like to add something to this list, please submit a [Pull Request on GitHub](https://github.com/aljazceru/awesome-ark-protocol/).
