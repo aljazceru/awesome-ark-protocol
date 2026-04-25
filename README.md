@@ -8,11 +8,13 @@ Ark is a scaling solution for Bitcoin that involves moving transactions off-chai
 - [Arkade](https://arkadeos.com/vision) - Arkade, A Virtual Execution Layer for Bitcoin-Native Applications by [Ark Labs](https://arklabs.xyz)
 - [Ark protocol](https://ark-protocol.org/) - Introduction to Ark maintained by [Steven Roose](https://github.com/stevenroose)
 - [Ark protocol intro](https://docs.second.tech/protocol/intro/) - Intro to the Ark protocol by [Second](https://second.tech)
+- [ark-protocol.org](https://ark-protocol.org/)![stars](https://img.shields.io/github/stars/ark-protocol/ark-protocol.org.svg?style=social) - Official Ark protocol website by [Steven Roose](https://github.com/stevenroose)
 
 
 ### Implementations
 - [Arkade](https://docs.arkadeos.com/) - An Operating System For Programmable Money by [Ark Labs](https://arklabs.xyz)
 - [bark](https://gitlab.com/ark-bitcoin/bark) - A Rust implementation of the Ark protocol by [Second](https://second.tech)
+- [bark](https://gitlab.com/ark-bitcoin/bark)![stars](https://img.shields.io/github/stars/ark-bitcoin/bark.svg?style=social) - A Rust implementation of the Ark protocol by [Second](https://second.tech)
 
 ### Wallets
 - [Arkade CLI](https://github.com/arkade-os/cli)![stars](https://img.shields.io/github/stars/arkade-os/cli.svg?style=social) - A command-line Ark wallet for generating addresses, checking balances, and sending/receiving BTC offchain/onchain from your terminal
@@ -48,6 +50,7 @@ Ark is a scaling solution for Bitcoin that involves moving transactions off-chai
 - [arkade-kotlin](https://github.com/shubertm/arkade-kotlin)![stars](https://img.shields.io/github/stars/shubertm/arkade-kotlin.svg?style=social) - Native Android SDK for Arkade
 - [skill](https://github.com/arkade-os/skill)![stars](https://img.shields.io/github/stars/arkade-os/skill.svg?style=social) - Arkade skills for AI agent integration — send and receive Bitcoin over Arkade, Lightning Network, and swap for USDC/USDT
 - [asset-demos](https://github.com/arkade-os/asset-demos) - Demonstrates how to manage assets across the TS and Golang SDKs
+- [arkapi](https://github.com/pihiker/arkapi)![stars](https://img.shields.io/github/stars/pihiker/arkapi.svg?style=social) - Python SDK for Ark protocol by [pihiker](https://github.com/pihiker)
 
 #### Faucets
 - [Arkade munitynet faucet](https://mutinynet.arkade.money/) - Faucet for mutinynet
@@ -68,6 +71,7 @@ Ark is a scaling solution for Bitcoin that involves moving transactions off-chai
 - [banco](https://github.com/arkade-os/banco) - Non interactive swaps powered by Arkade Script
 - [insurance-arkade](https://github.com/tiero/insurance-arkade) - Insurance contracts built on Arkade
 - [ln-escrow-ark](https://github.com/Antisys/ln-escrow-ark) - Non-custodial Lightning escrow powered by Ark Protocol
+- [ark-escrow](https://github.com/antisys/ark-escrow)![stars](https://img.shields.io/github/stars/antisys/ark-escrow.svg?style=social) - 2-of-3 Bitcoin escrow contracts on Ark by [Antisys](https://github.com/Antisys)
 - [dark](https://github.com/lobbyclawy/dark) - Rust implementation of arkd (Ark protocol server)
 - [Byte store](https://signet.2nd.dev/store) - Mock online store for testing Ark payments on signet
 - [coinflip](https://coinflip.casino/) - Coinflip game implemented with Ark
