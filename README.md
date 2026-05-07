@@ -8,13 +8,10 @@ Ark is a scaling solution for Bitcoin that involves moving transactions off-chai
 - [Arkade](https://arkadeos.com/vision) - Arkade, A Virtual Execution Layer for Bitcoin-Native Applications by [Ark Labs](https://arklabs.xyz)
 - [Ark protocol](https://ark-protocol.org/) - Introduction to Ark maintained by [Steven Roose](https://github.com/stevenroose)
 - [Ark protocol intro](https://docs.second.tech/protocol/intro/) - Intro to the Ark protocol by [Second](https://second.tech)
-- [ark-protocol.org](https://ark-protocol.org/)![stars](https://img.shields.io/github/stars/ark-protocol/ark-protocol.org.svg?style=social) - Official Ark protocol website by [Steven Roose](https://github.com/stevenroose)
-
 
 ### Implementations
 - [Arkade](https://docs.arkadeos.com/) - An Operating System For Programmable Money by [Ark Labs](https://arklabs.xyz)
 - [bark](https://gitlab.com/ark-bitcoin/bark) - A Rust implementation of the Ark protocol by [Second](https://second.tech)
-- [bark](https://gitlab.com/ark-bitcoin/bark)![stars](https://img.shields.io/github/stars/ark-bitcoin/bark.svg?style=social) - A Rust implementation of the Ark protocol by [Second](https://second.tech)
 
 ### Wallets
 - [Arkade CLI](https://github.com/arkade-os/cli)![stars](https://img.shields.io/github/stars/arkade-os/cli.svg?style=social) - A command-line Ark wallet for generating addresses, checking balances, and sending/receiving BTC offchain/onchain from your terminal
@@ -39,6 +36,7 @@ Ark is a scaling solution for Bitcoin that involves moving transactions off-chai
 - [ark-go](https://github.com/arkade-os/go-sdk) - Arkade GO by Ark Labs
 - [ark-rs](https://github.com/arkade-os/rust-sdk) - Arkade Rust SDK by Ark Labs
 - [ark-dotnet](https://github.com/arkade-os/dotnet-sdk) - Arkade C# SDK by Ark Labs
+- [arkapi](https://github.com/pihiker/arkapi)![stars](https://img.shields.io/github/stars/pihiker/arkapi.svg?style=social) - Python SDK for Ark protocol 
 - [arkade-assets](https://github.com/ArkLabsHQ/arkade-assets) - Native assets framework for Bitcoin - stablecoins, tokens, and digital assets on Arkade with UTXO-based architecture
 - [arkade-compiler](https://github.com/arkade-os/compiler) - High-level language compiler for Arkade Script - write Bitcoin smart contracts in a structured, Ivy-like syntax
 - [arke](https://github.com/GBKS/arke) - macOS wallet prototype for interacting with Ark protocol (second.tech implementation) 
@@ -50,7 +48,6 @@ Ark is a scaling solution for Bitcoin that involves moving transactions off-chai
 - [arkade-kotlin](https://github.com/shubertm/arkade-kotlin)![stars](https://img.shields.io/github/stars/shubertm/arkade-kotlin.svg?style=social) - Native Android SDK for Arkade
 - [skill](https://github.com/arkade-os/skill)![stars](https://img.shields.io/github/stars/arkade-os/skill.svg?style=social) - Arkade skills for AI agent integration — send and receive Bitcoin over Arkade, Lightning Network, and swap for USDC/USDT
 - [asset-demos](https://github.com/arkade-os/asset-demos) - Demonstrates how to manage assets across the TS and Golang SDKs
-- [arkapi](https://github.com/pihiker/arkapi)![stars](https://img.shields.io/github/stars/pihiker/arkapi.svg?style=social) - Python SDK for Ark protocol by [pihiker](https://github.com/pihiker)
 
 #### Faucets
 - [Arkade munitynet faucet](https://mutinynet.arkade.money/) - Faucet for mutinynet
