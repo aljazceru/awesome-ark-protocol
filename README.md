@@ -21,7 +21,7 @@ Ark is a scaling solution for Bitcoin that involves moving transactions off-chai
 - [arkadeosbot-skill](https://github.com/echennells/arkadeosbot-skill) - Claude Code skill for Arkade OS Bitcoin wallet capabilities for AI agents
 - [artmak](https://github.com/sbddesign/artmak)![stars](https://img.shields.io/github/stars/sbddesign/artmak.svg?style=social) - A Bitcoin Ark wallet implemented as performance art
 - [ark-wallets](https://github.com/Randy808/ark-wallets)![stars](https://img.shields.io/github/stars/Randy808/ark-wallets.svg?style=social) - A list of Bitcoin wallets compatible with the Ark protocol
-- [wdk-demo-app](https://github.com/arkade-os/wdk-demo-app)![stars](https://img.shields.io/github/stars/arkade-os/wdk-demo-app.svg?style=social) - WDK-based wallet showcasing the official module for Arkade, an open execution engine for Bitcoin. (0★)
+- [wdk-demo-app](https://github.com/arkade-os/wdk-demo-app)![stars](https://img.shields.io/github/stars/arkade-os/wdk-demo-app.svg?style=social) - WDK-based wallet showcasing the official module for Arkade, an open execution engine for Bitcoin.
 
 ### Explorers
 - [arkade-explorer](https://github.com/ArkLabsHQ/arkade-explorer)![stars](https://img.shields.io/github/stars/ArkLabsHQ/arkade-explorer.svg?style=social) - Arkade blockchain explorer by Ark Labs
@@ -79,8 +79,8 @@ Ark is a scaling solution for Bitcoin that involves moving transactions off-chai
 - [LendaSat](https://lendasat.com) - Bitcoin-backed lending on Arkade (For now only accessible via [arkade.money](https://arkade.money/))
 - [LendaSwap](https://swap.lendasat.com) - Cross-chain Atomic Swaps powered by Arkade.
 - [taproot-assets-in-ark](https://github.com/ArkLabsHQ/taproot-assets-in-ark)![stars](https://img.shields.io/github/stars/ArkLabsHQ/taproot-assets-in-ark.svg?style=social) - Research and integration of Taproot Assets (Taro) into the Ark protocol
-- [emulator](https://github.com/arkade-os/emulator)![stars](https://img.shields.io/github/stars/arkade-os/emulator.svg?style=social) - Introspection is all you need (9★)
-- [solver](https://github.com/arkade-os/solver)![stars](https://img.shields.io/github/stars/arkade-os/solver.svg?style=social) - Solve intents living in the arkade virtual mempool (0★)
+- [emulator](https://github.com/arkade-os/emulator)![stars](https://img.shields.io/github/stars/arkade-os/emulator.svg?style=social) - Introspection is all you need 
+- [solver](https://github.com/arkade-os/solver)![stars](https://img.shields.io/github/stars/arkade-os/solver.svg?style=social) - Solve intents living in the arkade virtual mempool
 
 
 ### Blogs
