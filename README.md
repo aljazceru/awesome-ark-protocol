@@ -81,7 +81,6 @@ Ark is a scaling solution for Bitcoin that involves moving transactions off-chai
 - [taproot-assets-in-ark](https://github.com/ArkLabsHQ/taproot-assets-in-ark)![stars](https://img.shields.io/github/stars/ArkLabsHQ/taproot-assets-in-ark.svg?style=social) - Research and integration of Taproot Assets (Taro) into the Ark protocol
 - [emulator](https://github.com/arkade-os/emulator)![stars](https://img.shields.io/github/stars/arkade-os/emulator.svg?style=social) - Introspection is all you need 
 - [solver](https://github.com/arkade-os/solver)![stars](https://img.shields.io/github/stars/arkade-os/solver.svg?style=social) - Solve intents living in the arkade virtual mempool
-- [covclaimd](https://github.com/arkade-os/covclaimd)![stars](https://img.shields.io/github/stars/arkade-os/covclaimd.svg?style=social) - Lightning Network project (0★)
 
 
 ### Blogs
