@@ -81,7 +81,7 @@ Ark is a scaling solution for Bitcoin that involves moving transactions off-chai
 - [taproot-assets-in-ark](https://github.com/ArkLabsHQ/taproot-assets-in-ark)![stars](https://img.shields.io/github/stars/ArkLabsHQ/taproot-assets-in-ark.svg?style=social) - Research and integration of Taproot Assets (Taro) into the Ark protocol
 - [emulator](https://github.com/arkade-os/emulator)![stars](https://img.shields.io/github/stars/arkade-os/emulator.svg?style=social) - Introspection is all you need 
 - [solver](https://github.com/arkade-os/solver)![stars](https://img.shields.io/github/stars/arkade-os/solver.svg?style=social) - Solve intents living in the arkade virtual mempool
-- [arkade-unilateral-exit](https://github.com/arkade-os/arkade-unilateral-exit)![stars](https://img.shields.io/github/stars/arkade-os/arkade-unilateral-exit.svg?style=social) - Keyless web executor for Arkade unilateral exit packages (0★)
+- [arkade-unilateral-exit](https://github.com/arkade-os/arkade-unilateral-exit)![stars](https://img.shields.io/github/stars/arkade-os/arkade-unilateral-exit.svg?style=social) - Keyless web executor for Arkade unilateral exit packages 
 
 
 ### Blogs
