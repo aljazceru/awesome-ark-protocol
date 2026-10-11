@@ -87,7 +87,6 @@ Ark is a scaling solution for Bitcoin that involves moving transactions off-chai
 - [delegatee](https://github.com/arkade-os/delegatee)![stars](https://img.shields.io/github/stars/arkade-os/delegatee.svg?style=social) - expiry killer
 - [shielded](https://github.com/arkade-os/shielded)![stars](https://img.shields.io/github/stars/arkade-os/shielded.svg?style=social) - Experimental shielded multi-asset Arkade protocol and local end-to-end proof of concept
 - [sideflash](https://github.com/connorslab/sideflash)![stars](https://img.shields.io/github/stars/connorslab/sideflash.svg?style=social) - Experimental Sideflash hybrid Ark and BOLT12 address protocol for bitcoin (XBT)
-- [arkpedia-l2d-assets](https://github.com/arkpedia/arkpedia-l2d-assets)![stars](https://img.shields.io/github/stars/arkpedia/arkpedia-l2d-assets.svg?style=social) - Animated outfit art (Arknights dynamic illustrations, Spine 3.8) for Arkpedia, with provenance
 
 
 
