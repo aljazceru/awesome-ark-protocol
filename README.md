@@ -15,16 +15,19 @@ Start with [Arkade's vision document](https://arkadeos.com/vision) for the high-
 This list tracks protocol specs, implementations (Arkade, Second, bark, etc.), wallets, and developer tools.
 
 ### Protocol
+_Last verified: 2026-10-14._
 - [Arkade](https://arkadeos.com/vision) - Arkade, A Virtual Execution Layer for Bitcoin-Native Applications by [Ark Labs](https://arklabs.xyz)
 - [Ark protocol](https://ark-protocol.org/) - Introduction to Ark maintained by [Steven Roose](https://github.com/stevenroose)
 - [Ark protocol intro](https://docs.second.tech/protocol/intro/) - Intro to the Ark protocol by [Second](https://second.tech)
 
 
 ### Implementations
+_Last verified: 2026-10-14._
 - [Arkade](https://docs.arkadeos.com/) - An Operating System For Programmable Money by [Ark Labs](https://arklabs.xyz)
 - [bark](https://gitlab.com/ark-bitcoin/bark) - A Rust implementation of the Ark protocol by [Second](https://second.tech)
 
 ### Wallets
+_Last verified: 2026-10-14._
 - [Arkade CLI](https://github.com/arkade-os/cli)![stars](https://img.shields.io/github/stars/arkade-os/cli.svg?style=social) - A command-line Ark wallet for generating addresses, checking balances, and sending/receiving BTC offchain/onchain from your terminal
 - [btc-wallet-plugin](https://github.com/jpentwickler/btc-wallet-plugin) - BTC Wallet Plugin — Arkade MCP Server for AI Agents
 - [harmoniis-wallet](https://github.com/harmoniis/harmoniis-wallet)![stars](https://img.shields.io/github/stars/harmoniis/harmoniis-wallet.svg?style=social) - Harmoniis Wallet (RGB, Webcash, Bitcoin(ARK), Identities)
@@ -34,9 +37,11 @@ This list tracks protocol specs, implementations (Arkade, Second, bark, etc.), w
 - [wdk-demo-app](https://github.com/arkade-os/wdk-demo-app)![stars](https://img.shields.io/github/stars/arkade-os/wdk-demo-app.svg?style=social) - WDK-based wallet showcasing the official module for Arkade, an open execution engine for Bitcoin.
 
 ### Explorers
+_Last verified: 2026-10-14._
 - [arkade-explorer](https://github.com/ArkLabsHQ/arkade-explorer)![stars](https://img.shields.io/github/stars/ArkLabsHQ/arkade-explorer.svg?style=social) - Arkade blockchain explorer by Ark Labs
 
 ### Developer resources
+_Last verified: 2026-10-14._
 
 #### Documentation
 - [Getting started with Arkade](https://docs.arkadeos.com) - Ark Labs' how-to for developers
@@ -97,10 +102,12 @@ This list tracks protocol specs, implementations (Arkade, Second, bark, etc.), w
 
 
 ### Blogs
+_Last verified: 2026-10-14._
 - [Ark Labs' blog](https://blog.arklabs.xyz)
 - [Second's blog](https://blog.second.tech/)
 
 ### Presentations and podcasts
+_Last verified: 2026-10-14._
 - [Steven Roose on Ark](https://bitcointv.com/w/iSg88hQLVGKicujZQvvYc6) - BitDev conference at Taipei Tech Summit
 - [Banking on Ark](https://www.youtube.com/watch?v=ag-z-29ptbI) - Banking on Ark talk by Marco Argentieri with [slides](https://docs.google.com/presentation/d/1HdWag6gMU4nFgB_s9RLmYLfBVERyZFjy3_xzd3hSmbk/edit#slide=id.g26fdbd1c56e_0_50)
 - [SLP482 Burak – Ark: A new L2 protocol for Bitcoin](https://stephanlivera.com/episode/482/) - Burak on Stephan Livera Podcast
@@ -114,12 +121,14 @@ This list tracks protocol specs, implementations (Arkade, Second, bark, etc.), w
 - [Ark explained in under 14 minutes](https://youtu.be/WvwmLv0SgAc?si=Nc0yo79MD-BJPhAZ)
 
 ### Communites
+_Last verified: 2026-10-14._
 - [Telegram community](https://t.me/ark_bitcoin) - Ark protocol Telegram community
 - [Arkade community](https://t.me/arkade_os) - Arkade telegram community
 - [Second community](https://community.second.tech) - Second's community forum
 - [Second's bark chat](https://chat.second.tech) - Second's technical support chat, hosted on Zulip
 
 ### History
+_Last verified: 2026-10-14._
 
 #### Ark v2 reading
 - [Ark protocol intro](https://docs.arklabs.xyz/ark/) - Intro to the Ark protocol by [Ark Labs](https://arklabs.xyz)
@@ -148,6 +157,7 @@ This list tracks protocol specs, implementations (Arkade, Second, bark, etc.), w
 
 
 ### Related Resources
+_Last verified: 2026-10-14._
 To explore other aspects of the Bitcoin and freedom tech ecosystem, check out these additional resource directories:
 - [nostr.net](https://www.nostr.net) - A complete guide to Nostr - projects, implementations, developer tools and all other resources
 - [liquidnetwork.wiki](https://liquidnetwork.wiki) - A curated list of Liquid Network resources, libraries, tools and applications
