@@ -86,7 +86,6 @@ Ark is a scaling solution for Bitcoin that involves moving transactions off-chai
 - [skills](https://github.com/arkade-os/skills)![stars](https://img.shields.io/github/stars/arkade-os/skills.svg?style=social) - Agent skills for Arkade contracts: write with arkadec, spend with the SDK, prove on regtest
 - [delegatee](https://github.com/arkade-os/delegatee)![stars](https://img.shields.io/github/stars/arkade-os/delegatee.svg?style=social) - Renews Arkade VTXOs and boards bitcoin deposits while the owner is offline
 - [shielded](https://github.com/arkade-os/shielded)![stars](https://img.shields.io/github/stars/arkade-os/shielded.svg?style=social) - Experimental shielded multi-asset Arkade protocol and local end-to-end proof of concept
-- [sideflash](https://github.com/connorslab/sideflash)![stars](https://img.shields.io/github/stars/connorslab/sideflash.svg?style=social) - Experimental Sideflash hybrid Ark and BOLT12 address protocol for bitcoin (XBT)
 
 
 
