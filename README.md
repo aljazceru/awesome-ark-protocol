@@ -10,12 +10,12 @@ Ark is a Bitcoin layer-2 that batches many off-chain transactions into a single 
 
 ## Where to start
 
-Start with [Arkade's vision document](https://arkadeos.com/vision) for the high-level framing, then [the Ark protocol intro on ark-protocol.org](https://ark-protocol.org/) (maintained by Steven Roose) for the technical specification. The [Second protocol docs](https://docs.second.tech/protocol/intro/) give an implementation perspective. For the original mailing-list post, see the [bitcoin-dev mailing list archive](https://gnusha.org/pi/bitcoindev/) filtered to "Burak" and "Ark".
+Start with [Arkade](https://arkadeos.com/) for the high-level framing, then [the Ark protocol intro on ark-protocol.org](https://ark-protocol.org/) (maintained by Steven Roose) for the technical specification. The [Second protocol docs](https://docs.second.tech/protocol/intro/) give an implementation perspective.
 
 This list tracks protocol specs, implementations (Arkade, Second, bark, etc.), wallets, and developer tools.
 
 ### Protocol
-- [Arkade](https://arkadeos.com/vision) - Arkade, A Virtual Execution Layer for Bitcoin-Native Applications by [Ark Labs](https://arklabs.xyz)
+- [Arkade](https://arkadeos.com/) - Arkade, A Virtual Execution Layer for Bitcoin-Native Applications by [Ark Labs](https://arklabs.xyz)
 - [Ark protocol](https://ark-protocol.org/) - Introduction to Ark maintained by [Steven Roose](https://github.com/stevenroose)
 - [Ark protocol intro](https://docs.second.tech/protocol/intro/) - Intro to the Ark protocol by [Second](https://second.tech)
 
