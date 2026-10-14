@@ -83,8 +83,8 @@ Ark is a scaling solution for Bitcoin that involves moving transactions off-chai
 - [solver](https://github.com/arkade-os/solver)![stars](https://img.shields.io/github/stars/arkade-os/solver.svg?style=social) - Solve intents living in the arkade virtual mempool
 - [arkade-unilateral-exit](https://github.com/arkade-os/arkade-unilateral-exit)![stars](https://img.shields.io/github/stars/arkade-os/arkade-unilateral-exit.svg?style=social) - Keyless web executor for Arkade unilateral exit packages 
 - [ark-expert](https://github.com/TheBitcoinBreakdown-95/ark-expert)![stars](https://img.shields.io/github/stars/TheBitcoinBreakdown-95/ark-expert.svg?style=social) - Claude Code command for answering Ark protocol questions from the public arklabs and second-tech source repos
-- [skills](https://github.com/arkade-os/skills)![stars](https://img.shields.io/github/stars/arkade-os/skills.svg?style=social) - Agent skills for an Arkade contract: decide what it tracks, write it with arkadec, spend it with the sdk, show one next action, and prove it on Arkade regtest.
-- [delegatee](https://github.com/arkade-os/delegatee)![stars](https://img.shields.io/github/stars/arkade-os/delegatee.svg?style=social) - expiry killer
+- [skills](https://github.com/arkade-os/skills)![stars](https://img.shields.io/github/stars/arkade-os/skills.svg?style=social) - Agent skills for Arkade contracts: write with arkadec, spend with the SDK, prove on regtest
+- [delegatee](https://github.com/arkade-os/delegatee)![stars](https://img.shields.io/github/stars/arkade-os/delegatee.svg?style=social) - Renews Arkade VTXOs and boards bitcoin deposits while the owner is offline
 - [shielded](https://github.com/arkade-os/shielded)![stars](https://img.shields.io/github/stars/arkade-os/shielded.svg?style=social) - Experimental shielded multi-asset Arkade protocol and local end-to-end proof of concept
 - [sideflash](https://github.com/connorslab/sideflash)![stars](https://img.shields.io/github/stars/connorslab/sideflash.svg?style=social) - Experimental Sideflash hybrid Ark and BOLT12 address protocol for bitcoin (XBT)
 
