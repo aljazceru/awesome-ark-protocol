@@ -32,6 +32,7 @@ This list tracks protocol specs, implementations (Arkade, Second, bark, etc.), w
 - [artmak](https://github.com/sbddesign/artmak)![stars](https://img.shields.io/github/stars/sbddesign/artmak.svg?style=social) - A Bitcoin Ark wallet implemented as performance art
 - [ark-wallets](https://github.com/Randy808/ark-wallets)![stars](https://img.shields.io/github/stars/Randy808/ark-wallets.svg?style=social) - A list of Bitcoin wallets compatible with the Ark protocol
 - [wdk-demo-app](https://github.com/arkade-os/wdk-demo-app)![stars](https://img.shields.io/github/stars/arkade-os/wdk-demo-app.svg?style=social) - WDK-based wallet showcasing the official module for Arkade, an open execution engine for Bitcoin.
+- [Spendrr](https://github.com/spendrr/web) - Self-custodial browser wallet on Ark via the bark SDK.
 
 ### Explorers
 - [arkade-explorer](https://github.com/ArkLabsHQ/arkade-explorer)![stars](https://img.shields.io/github/stars/ArkLabsHQ/arkade-explorer.svg?style=social) - Arkade blockchain explorer by Ark Labs
