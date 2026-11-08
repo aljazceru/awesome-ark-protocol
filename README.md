@@ -33,6 +33,7 @@ This list tracks protocol specs, implementations (Arkade, Second, bark, etc.), w
 - [ark-wallets](https://github.com/Randy808/ark-wallets)![stars](https://img.shields.io/github/stars/Randy808/ark-wallets.svg?style=social) - A list of Bitcoin wallets compatible with the Ark protocol
 - [wdk-demo-app](https://github.com/arkade-os/wdk-demo-app)![stars](https://img.shields.io/github/stars/arkade-os/wdk-demo-app.svg?style=social) - WDK-based wallet showcasing the official module for Arkade, an open execution engine for Bitcoin.
 - [Spendrr](https://github.com/spendrr/web) - Self-custodial browser wallet on Ark via the bark SDK.
+- [bark-web-startos](https://github.com/Start9Labs/bark-web-startos) - StartOS package for the Bark web wallet, with a login gate and encrypted backup.
 
 ### Explorers
 - [arkade-explorer](https://github.com/ArkLabsHQ/arkade-explorer)![stars](https://img.shields.io/github/stars/ArkLabsHQ/arkade-explorer.svg?style=social) - Arkade blockchain explorer by Ark Labs
@@ -60,6 +61,7 @@ This list tracks protocol specs, implementations (Arkade, Second, bark, etc.), w
 - [arkade-kotlin](https://github.com/shubertm/arkade-kotlin)![stars](https://img.shields.io/github/stars/shubertm/arkade-kotlin.svg?style=social) - Native Android SDK for Arkade
 - [skill](https://github.com/arkade-os/skill)![stars](https://img.shields.io/github/stars/arkade-os/skill.svg?style=social) - Arkade skills for AI agent integration — send and receive Bitcoin over Arkade, Lightning Network, and swap for USDC/USDT
 - [asset-demos](https://github.com/arkade-os/asset-demos) - Demonstrates how to manage assets across the TS and Golang SDKs
+- [bark-bolt-ffi](https://github.com/smolcars/bark-bolt-ffi) - Swift and Kotlin bindings for the Bark wallet.
 
 #### Faucets
 - [Arkade munitynet faucet](https://mutinynet.arkade.money/) - Faucet for mutinynet
@@ -67,6 +69,9 @@ This list tracks protocol specs, implementations (Arkade, Second, bark, etc.), w
 
 
 #### Projects using Ark
+- [arkade-options](https://github.com/ArkLabsHQ/arkade-options) - Covered-call and limited-put option vaults collateralized by bitcoin on Arkade.
+- [arkade-taxi](https://github.com/ArkLabsHQ/arkade-taxi) - Dust-free Arkade transfers where an operator fronts dust and a covenant repays it.
+- [lnurl-server](https://github.com/ArkLabsHQ/lnurl-server) - LNURL-pay service for amountless Lightning receives into Arkade wallets.
 - [arkd](https://github.com/arkade-os/arkd) -  Ark Server implementation that powers Arkade 
 - [arkade.money](https://arkade.money/) - Web wallt by Ark Labs
 - [Arkade Wallet](https://github.com/arkade-os/wallet) - Open-source, self-custodial Bitcoin PWA with native Ark protocol and VTXOs by Ark Labs
