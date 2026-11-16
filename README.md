@@ -28,10 +28,8 @@ This list tracks protocol specs, implementations (Arkade, Second, bark, etc.), w
 - [Arkade CLI](https://github.com/arkade-os/cli)![stars](https://img.shields.io/github/stars/arkade-os/cli.svg?style=social) - A command-line Ark wallet for generating addresses, checking balances, and sending/receiving BTC offchain/onchain from your terminal
 - [btc-wallet-plugin](https://github.com/jpentwickler/btc-wallet-plugin) - BTC Wallet Plugin — Arkade MCP Server for AI Agents
 - [harmoniis-wallet](https://github.com/harmoniis/harmoniis-wallet)![stars](https://img.shields.io/github/stars/harmoniis/harmoniis-wallet.svg?style=social) - Harmoniis Wallet (RGB, Webcash, Bitcoin(ARK), Identities)
-- [arkadeosbot-skill](https://github.com/echennells/arkadeosbot-skill) - Claude Code skill for Arkade OS Bitcoin wallet capabilities for AI agents
 - [artmak](https://github.com/sbddesign/artmak)![stars](https://img.shields.io/github/stars/sbddesign/artmak.svg?style=social) - A Bitcoin Ark wallet implemented as performance art
 - [ark-wallets](https://github.com/Randy808/ark-wallets)![stars](https://img.shields.io/github/stars/Randy808/ark-wallets.svg?style=social) - A list of Bitcoin wallets compatible with the Ark protocol
-- [wdk-demo-app](https://github.com/arkade-os/wdk-demo-app)![stars](https://img.shields.io/github/stars/arkade-os/wdk-demo-app.svg?style=social) - WDK-based wallet showcasing the official module for Arkade, an open execution engine for Bitcoin.
 - [Spendrr](https://github.com/spendrr/web) - Self-custodial browser wallet on Ark via the bark SDK.
 - [bark-web-startos](https://github.com/Start9Labs/bark-web-startos) - StartOS package for the Bark web wallet, with a login gate and encrypted backup.
 
@@ -78,7 +76,6 @@ This list tracks protocol specs, implementations (Arkade, Second, bark, etc.), w
 - [arkade-escrow](https://github.com/ArkLabsHQ/arkade-escrow) - Escrow contract demo showcasing trustless escrow functionality on Arkade
 - [arkash](https://github.com/supertestnet/arkash) - Supertestnet's ecash like implementation of Ark
 - [ark-escrow](https://github.com/lendasat/ark-escrow) - 2-of-3 Bitcoin escrow contracts on Arkade
-- [vtxomarket](https://github.com/lendasat/vtxomarket) - Arkade assets marketplace for trading VTXO-based digital assets
 - [ArkAdmin](https://github.com/jgmcalpine/ArkAdmin) - Control plane and dashboard for the Bark Bitcoin Wallet Daemon
 - [Ark Explorer](https://github.com/blockonomics/arkexplorer) - Explorer and statistics for the Ark protocol by Blockonomics
 - [btcpay-arkade](https://github.com/ArkLabsHQ/btcpay-arkade) - BTCPayServer integration for accepting Ark payments
@@ -96,7 +93,6 @@ This list tracks protocol specs, implementations (Arkade, Second, bark, etc.), w
 - [LendaSwap](https://swap.lendasat.com) - Cross-chain Atomic Swaps powered by Arkade.
 - [taproot-assets-in-ark](https://github.com/ArkLabsHQ/taproot-assets-in-ark)![stars](https://img.shields.io/github/stars/ArkLabsHQ/taproot-assets-in-ark.svg?style=social) - Research and integration of Taproot Assets (Taro) into the Ark protocol
 - [emulator](https://github.com/arkade-os/emulator)![stars](https://img.shields.io/github/stars/arkade-os/emulator.svg?style=social) - Introspection is all you need 
-- [solver](https://github.com/arkade-os/solver)![stars](https://img.shields.io/github/stars/arkade-os/solver.svg?style=social) - Solve intents living in the arkade virtual mempool
 - [arkade-unilateral-exit](https://github.com/arkade-os/arkade-unilateral-exit)![stars](https://img.shields.io/github/stars/arkade-os/arkade-unilateral-exit.svg?style=social) - Keyless web executor for Arkade unilateral exit packages 
 - [ark-expert](https://github.com/TheBitcoinBreakdown-95/ark-expert)![stars](https://img.shields.io/github/stars/TheBitcoinBreakdown-95/ark-expert.svg?style=social) - Claude Code command for answering Ark protocol questions from the public arklabs and second-tech source repos
 - [skills](https://github.com/arkade-os/skills)![stars](https://img.shields.io/github/stars/arkade-os/skills.svg?style=social) - Agent skills for Arkade contracts: write with arkadec, spend with the SDK, prove on regtest
