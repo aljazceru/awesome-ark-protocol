@@ -35,6 +35,7 @@ This list tracks protocol specs, implementations (Arkade, Second, bark, etc.), w
 
 ### Explorers
 - [arkade-explorer](https://github.com/ArkLabsHQ/arkade-explorer)![stars](https://img.shields.io/github/stars/ArkLabsHQ/arkade-explorer.svg?style=social) - Arkade blockchain explorer by Ark Labs
+- [vtxo-explorer](https://github.com/bilthon/vtxo-explorer)![stars](https://img.shields.io/github/stars/bilthon/vtxo-explorer.svg?style=social) - Explorer for Arkade VTXOs - paste an outpoint and see its full transaction DAG back to the onchain commitment tx
 
 ### Developer resources
 
@@ -60,6 +61,7 @@ This list tracks protocol specs, implementations (Arkade, Second, bark, etc.), w
 - [skill](https://github.com/arkade-os/skill)![stars](https://img.shields.io/github/stars/arkade-os/skill.svg?style=social) - Arkade skills for AI agent integration — send and receive Bitcoin over Arkade, Lightning Network, and swap for USDC/USDT
 - [asset-demos](https://github.com/arkade-os/asset-demos) - Demonstrates how to manage assets across the TS and Golang SDKs
 - [bark-bolt-ffi](https://github.com/smolcars/bark-bolt-ffi) - Swift and Kotlin bindings for the Bark wallet.
+- [saplingos](https://github.com/stutxo/saplingos) - Rust client SDK for Sapio-program-controlled Ark spending with durable on-chain recovery, derived from Second's bark
 
 #### Faucets
 - [Arkade munitynet faucet](https://mutinynet.arkade.money/) - Faucet for mutinynet
@@ -98,6 +100,9 @@ This list tracks protocol specs, implementations (Arkade, Second, bark, etc.), w
 - [skills](https://github.com/arkade-os/skills)![stars](https://img.shields.io/github/stars/arkade-os/skills.svg?style=social) - Agent skills for Arkade contracts: write with arkadec, spend with the SDK, prove on regtest
 - [delegatee](https://github.com/arkade-os/delegatee)![stars](https://img.shields.io/github/stars/arkade-os/delegatee.svg?style=social) - Renews Arkade VTXOs and boards bitcoin deposits while the owner is offline
 - [shielded](https://github.com/arkade-os/shielded)![stars](https://img.shields.io/github/stars/arkade-os/shielded.svg?style=social) - Experimental shielded multi-asset Arkade protocol and local end-to-end proof of concept
+- [arkade-prediction](https://github.com/ArkLabsHQ/arkade-prediction)![stars](https://img.shields.io/github/stars/ArkLabsHQ/arkade-prediction.svg?style=social) - BTC-collateralized binary prediction markets on Arkade - every YES/NO claim is a native Arkade asset backed by sats in a per-market covenant vault
+- [arkade-regtest](https://github.com/ArkLabsHQ/arkade-regtest)![stars](https://img.shields.io/github/stars/ArkLabsHQ/arkade-regtest.svg?style=social) - Reusable Arkade Regtest infrastructure for E2E testing - Bitcoin Core, Fulcrum, mempool, NBXplorer, arkd, Fulmine, two LND nodes, and a Nostr relay in one reproducible Docker Compose stack
+- [arkade-wallet-stack](https://github.com/ArkLabsHQ/arkade-wallet-stack)![stars](https://img.shields.io/github/stars/ArkLabsHQ/arkade-wallet-stack.svg?style=social) - Turnkey docker compose stack for wallet providers offering Arkade: fulmine delegate, lnurl-server, covclaimd, and encrypted contract backup
 
 
 
