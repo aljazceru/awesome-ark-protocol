@@ -1,0 +1,175 @@
+Ark is a layer-two protocol for making off-chain Bitcoin transactions. Initially published on the bitcoin-dev mailing list as TBDXXX by Burak, is has since been named Ark and the protocol design has advanced significantly.
+
+The Ark protocol is a payments system where people can make Bitcoin transactions at very low cost and without requiring any setup. The Ark model very closely resembles the UTXO model, which is a key differentiator with Lightning.
+
+Ark is a scaling solution for Bitcoin that involves moving transactions off-chain. Ark executes transactions outside of the Bitcoin main chain but posts transaction data back on-chain in a compressed format. Ark servers bundle multiple off-chain transactions into large batches before submitting them to the Bitcoin blockchain. This method spreads fixed costs across multiple transactions in each batch, significantly reducing fees for end-users.
+
+## What is the Ark protocol?
+
+Ark is a Bitcoin layer-2 that batches many off-chain transactions into a single on-chain settlement. Users don't open channels (unlike Lightning) — they participate in shared "batch transactions" signed by an Ark operator, get instant confirmation off-chain, and exit unilaterally if the operator disappears. It's UTXO-shaped, which means it composes with Bitcoin tooling more naturally than account-based L2s.
+
+## Where to start
+
+Start with [Arkade](https://arkadeos.com/) for the high-level framing, then [the Ark protocol intro on ark-protocol.org](https://ark-protocol.org/) (maintained by Steven Roose) for the technical specification. The [Second protocol docs](https://docs.second.tech/protocol/intro/) give an implementation perspective.
+
+This list tracks protocol specs, implementations (Arkade, Second, bark, etc.), wallets, and developer tools.
+
+### Protocol
+- [Arkade](https://arkadeos.com/) - Arkade, A Virtual Execution Layer for Bitcoin-Native Applications by [Ark Labs](https://arklabs.xyz)
+- [Ark protocol](https://ark-protocol.org/) - Introduction to Ark maintained by [Steven Roose](https://github.com/stevenroose)
+- [Ark protocol intro](https://docs.second.tech/protocol/intro/) - Intro to the Ark protocol by [Second](https://second.tech)
+
+
+### Implementations
+- [Arkade](https://docs.arkadeos.com/) - An Operating System For Programmable Money by [Ark Labs](https://arklabs.xyz)
+- [bark](https://gitlab.com/ark-bitcoin/bark) - A Rust implementation of the Ark protocol by [Second](https://second.tech)
+
+### Wallets
+- [Arkade CLI](https://github.com/arkade-os/cli)![stars](https://img.shields.io/github/stars/arkade-os/cli.svg?style=social) - A command-line Ark wallet for generating addresses, checking balances, and sending/receiving BTC offchain/onchain from your terminal
+- [btc-wallet-plugin](https://github.com/jpentwickler/btc-wallet-plugin) - BTC Wallet Plugin — Arkade MCP Server for AI Agents
+- [harmoniis-wallet](https://github.com/harmoniis/harmoniis-wallet)![stars](https://img.shields.io/github/stars/harmoniis/harmoniis-wallet.svg?style=social) - Harmoniis Wallet (RGB, Webcash, Bitcoin(ARK), Identities)
+- [artmak](https://github.com/sbddesign/artmak)![stars](https://img.shields.io/github/stars/sbddesign/artmak.svg?style=social) - A Bitcoin Ark wallet implemented as performance art
+- [ark-wallets](https://github.com/Randy808/ark-wallets)![stars](https://img.shields.io/github/stars/Randy808/ark-wallets.svg?style=social) - A list of Bitcoin wallets compatible with the Ark protocol
+- [Spendrr](https://github.com/spendrr/web) - Self-custodial browser wallet on Ark via the bark SDK.
+- [bark-web-startos](https://github.com/Start9Labs/bark-web-startos) - StartOS package for the Bark web wallet, with a login gate and encrypted backup.
+
+### Explorers
+- [arkade-explorer](https://github.com/ArkLabsHQ/arkade-explorer)![stars](https://img.shields.io/github/stars/ArkLabsHQ/arkade-explorer.svg?style=social) - Arkade blockchain explorer by Ark Labs
+- [vtxo-explorer](https://github.com/bilthon/vtxo-explorer)![stars](https://img.shields.io/github/stars/bilthon/vtxo-explorer.svg?style=social) - Explorer for Arkade VTXOs - paste an outpoint and see its full transaction DAG back to the onchain commitment tx
+
+### Developer resources
+
+#### Documentation
+- [Getting started with Arkade](https://docs.arkadeos.com) - Ark Labs' how-to for developers
+- [Getting started with bark](https://docs.second.tech/getting-started/introduction/) - Second's how-to for developers
+- [docs-assets](https://github.com/arkade-os/docs-assets) - Static HTML assets for Arkade docs
+
+#### SDKs & Libraries
+- [ark-ts](https://github.com/arkade-os/ts-sdk) - Arkade TypeScript SDK by Ark Labs
+- [ark-go](https://github.com/arkade-os/go-sdk) - Arkade GO by Ark Labs
+- [ark-rs](https://github.com/arkade-os/rust-sdk) - Arkade Rust SDK by Ark Labs
+- [ark-dotnet](https://github.com/arkade-os/dotnet-sdk) - Arkade C# SDK by Ark Labs
+- [arkade-assets](https://github.com/ArkLabsHQ/arkade-assets) - Native assets framework for Bitcoin - stablecoins, tokens, and digital assets on Arkade with UTXO-based architecture
+- [arkade-compiler](https://github.com/arkade-os/compiler) - High-level language compiler for Arkade Script - write Bitcoin smart contracts in a structured, Ivy-like syntax
+- [arke](https://github.com/GBKS/arke) - macOS wallet prototype for interacting with Ark protocol (second.tech implementation) 
+- [bark-wallet](https://docs.rs/bark-wallet/latest/bark/) - bark Rust API reference by Second
+- [boltz-swap](https://github.com/arkade-os/boltz-swap) - lightning swaps with boltz for Arkade
+- [libvpack-rs](https://github.com/jgmcalpine/libvpack-rs) - Universal verifier and 'life raft' for the VTXO (Virtual UTXO) primitive - independent auditability and sovereign recovery across Ark-like implementations
+- [ark-tx-builder](https://github.com/SashaZezulinsky/ark-tx-builder) - Deterministic Bitcoin transaction builders for the Ark protocol
+- [arkade-wdk](https://github.com/ArkLabsHQ/arkade-wdk)![stars](https://img.shields.io/github/stars/ArkLabsHQ/arkade-wdk.svg?style=social) - WDK-compatible Bitcoin wallet manager built on Arkade SDK with optional Lightning support via boltz-swap
+- [arkade-kotlin](https://github.com/shubertm/arkade-kotlin)![stars](https://img.shields.io/github/stars/shubertm/arkade-kotlin.svg?style=social) - Native Android SDK for Arkade
+- [skill](https://github.com/arkade-os/skill)![stars](https://img.shields.io/github/stars/arkade-os/skill.svg?style=social) - Arkade skills for AI agent integration — send and receive Bitcoin over Arkade, Lightning Network, and swap for USDC/USDT
+- [asset-demos](https://github.com/arkade-os/asset-demos) - Demonstrates how to manage assets across the TS and Golang SDKs
+- [bark-bolt-ffi](https://github.com/smolcars/bark-bolt-ffi) - Swift and Kotlin bindings for the Bark wallet.
+- [saplingos](https://github.com/stutxo/saplingos) - Rust client SDK for Sapio-program-controlled Ark spending with durable on-chain recovery, derived from Second's bark
+
+#### Faucets
+- [Arkade munitynet faucet](https://mutinynet.arkade.money/) - Faucet for mutinynet
+- [bark signet faucet](https://signet.2nd.dev) - Faucet for signet
+
+
+#### Projects using Ark
+- [arkade-options](https://github.com/ArkLabsHQ/arkade-options) - Covered-call and limited-put option vaults collateralized by bitcoin on Arkade.
+- [arkade-taxi](https://github.com/ArkLabsHQ/arkade-taxi) - Dust-free Arkade transfers where an operator fronts dust and a covenant repays it.
+- [lnurl-server](https://github.com/ArkLabsHQ/lnurl-server) - LNURL-pay service for amountless Lightning receives into Arkade wallets.
+- [arkd](https://github.com/arkade-os/arkd) -  Ark Server implementation that powers Arkade 
+- [arkade.money](https://arkade.money/) - Web wallt by Ark Labs
+- [Arkade Wallet](https://github.com/arkade-os/wallet) - Open-source, self-custodial Bitcoin PWA with native Ark protocol and VTXOs by Ark Labs
+- [arkade-escrow](https://github.com/ArkLabsHQ/arkade-escrow) - Escrow contract demo showcasing trustless escrow functionality on Arkade
+- [arkash](https://github.com/supertestnet/arkash) - Supertestnet's ecash like implementation of Ark
+- [ark-escrow](https://github.com/lendasat/ark-escrow) - 2-of-3 Bitcoin escrow contracts on Arkade
+- [ArkAdmin](https://github.com/jgmcalpine/ArkAdmin) - Control plane and dashboard for the Bark Bitcoin Wallet Daemon
+- [Ark Explorer](https://github.com/blockonomics/arkexplorer) - Explorer and statistics for the Ark protocol by Blockonomics
+- [btcpay-arkade](https://github.com/ArkLabsHQ/btcpay-arkade) - BTCPayServer integration for accepting Ark payments
+- [banco](https://github.com/arkade-os/banco) - Non interactive swaps powered by Arkade Script
+- [insurance-arkade](https://github.com/tiero/insurance-arkade) - Insurance contracts built on Arkade
+- [ln-escrow-ark](https://github.com/Antisys/ln-escrow-ark) - Non-custodial Lightning escrow powered by Ark Protocol
+- [dark](https://github.com/lobbyclawy/dark) - Rust implementation of arkd (Ark protocol server)
+- [Byte store](https://signet.2nd.dev/store) - Mock online store for testing Ark payments on signet
+- [coinflip](https://coinflip.casino/) - Coinflip game implemented with Ark
+- [fulmine](https://github.com/ArkLabsHQ/fulmine) - Bitcoin wallet daemon that enables swap providers and payment hubs to optimize Lightning Network channel liquidity while minimizing on-chain fees 
+- [Noah wallet](https://alpha.noahwallet.io) - Mobile-native bitcoin wallet built on Ark
+- [NArk](https://github.com/ArkLabsHQ/NArk) - Ark payment functionality with BTCPayServer
+- [snap](https://github.com/arkade-os/snap) - Metamask Snap that brings Bitcoin, Lightning and Arkade to your browser
+- [LendaSat](https://lendasat.com) - Bitcoin-backed lending on Arkade (For now only accessible via [arkade.money](https://arkade.money/))
+- [LendaSwap](https://swap.lendasat.com) - Cross-chain Atomic Swaps powered by Arkade.
+- [taproot-assets-in-ark](https://github.com/ArkLabsHQ/taproot-assets-in-ark)![stars](https://img.shields.io/github/stars/ArkLabsHQ/taproot-assets-in-ark.svg?style=social) - Research and integration of Taproot Assets (Taro) into the Ark protocol
+- [emulator](https://github.com/arkade-os/emulator)![stars](https://img.shields.io/github/stars/arkade-os/emulator.svg?style=social) - Introspection is all you need 
+- [arkade-unilateral-exit](https://github.com/arkade-os/arkade-unilateral-exit)![stars](https://img.shields.io/github/stars/arkade-os/arkade-unilateral-exit.svg?style=social) - Keyless web executor for Arkade unilateral exit packages 
+- [ark-expert](https://github.com/TheBitcoinBreakdown-95/ark-expert)![stars](https://img.shields.io/github/stars/TheBitcoinBreakdown-95/ark-expert.svg?style=social) - Claude Code command for answering Ark protocol questions from the public arklabs and second-tech source repos
+- [skills](https://github.com/arkade-os/skills)![stars](https://img.shields.io/github/stars/arkade-os/skills.svg?style=social) - Agent skills for Arkade contracts: write with arkadec, spend with the SDK, prove on regtest
+- [delegatee](https://github.com/arkade-os/delegatee)![stars](https://img.shields.io/github/stars/arkade-os/delegatee.svg?style=social) - Renews Arkade VTXOs and boards bitcoin deposits while the owner is offline
+- [shielded](https://github.com/arkade-os/shielded)![stars](https://img.shields.io/github/stars/arkade-os/shielded.svg?style=social) - Experimental shielded multi-asset Arkade protocol and local end-to-end proof of concept
+- [arkade-prediction](https://github.com/ArkLabsHQ/arkade-prediction)![stars](https://img.shields.io/github/stars/ArkLabsHQ/arkade-prediction.svg?style=social) - BTC-collateralized binary prediction markets on Arkade - every YES/NO claim is a native Arkade asset backed by sats in a per-market covenant vault
+- [arkade-regtest](https://github.com/ArkLabsHQ/arkade-regtest)![stars](https://img.shields.io/github/stars/ArkLabsHQ/arkade-regtest.svg?style=social) - Reusable Arkade Regtest infrastructure for E2E testing - Bitcoin Core, Fulcrum, mempool, NBXplorer, arkd, Fulmine, two LND nodes, and a Nostr relay in one reproducible Docker Compose stack
+- [arkade-wallet-stack](https://github.com/ArkLabsHQ/arkade-wallet-stack)![stars](https://img.shields.io/github/stars/ArkLabsHQ/arkade-wallet-stack.svg?style=social) - Turnkey docker compose stack for wallet providers offering Arkade: fulmine delegate, lnurl-server, covclaimd, and encrypted contract backup
+
+
+
+### Blogs
+- [Ark Labs' blog](https://blog.arklabs.xyz)
+- [Second's blog](https://blog.second.tech/)
+
+### Presentations and podcasts
+- [Steven Roose on Ark](https://bitcointv.com/w/iSg88hQLVGKicujZQvvYc6) - BitDev conference at Taipei Tech Summit
+- [Banking on Ark](https://www.youtube.com/watch?v=ag-z-29ptbI) - Banking on Ark talk by Marco Argentieri with [slides](https://docs.google.com/presentation/d/1HdWag6gMU4nFgB_s9RLmYLfBVERyZFjy3_xzd3hSmbk/edit#slide=id.g26fdbd1c56e_0_50)
+- [SLP482 Burak – Ark: A new L2 protocol for Bitcoin](https://stephanlivera.com/episode/482/) - Burak on Stephan Livera Podcast
+- [Ark announcement at Bitcoin 2023](https://www.youtube.com/watch?v=TRLFYb45q9U) - Burak's Ark announcement at Bitcoin 2023
+- [Bitcoin Takeover Podcast S14 E1: Burak Keceli on Ark & Bitcoin 2nd Layers](https://www.youtube.com/watch?v=iQ7TLBhh9r4) 
+- [The Kevin Rooke Show E109: Burak on Building Ark, Scaling Bitcoin, and Improving Privacy](https://www.stacksats.how/podcasts/e109-burak-on-building-ark-scaling-bitcoin-and-improving-privacy)
+- [The ark-hashed podcast, episode 16](https://youtu.be/p3TzBci2CyI)
+- [Updates on Ark development - one year later](https://stephanlivera.com/episode/584/)
+- [Scaling Bitcoin to 2050 w/ Shinobi, Marco Argentieri, Simanta Gautam & Alex Bosworth](https://www.youtube.com/watch?v=IPmjIg7IaR8)
+- [Transforming Bitcoin: Marco Agentieri’s Vision with Ark Labs](https://www.youtube.com/watch?v=GrvsENa9Zm4)
+- [Ark explained in under 14 minutes](https://youtu.be/WvwmLv0SgAc?si=Nc0yo79MD-BJPhAZ)
+
+### Communites
+- [Telegram community](https://t.me/ark_bitcoin) - Ark protocol Telegram community
+- [Arkade community](https://t.me/arkade_os) - Arkade telegram community
+- [Second community](https://community.second.tech) - Second's community forum
+- [Second's bark chat](https://chat.second.tech) - Second's technical support chat, hosted on Zulip
+
+### History
+
+#### Ark v2 reading
+- [Ark protocol intro](https://docs.arklabs.xyz/ark/) - Intro to the Ark protocol by [Ark Labs](https://arklabs.xyz)
+- [Ark deep dive](https://web.archive.org/web/20240328181345/https://www.arkpill.me/deep-dive) - Original Ark deep dive by Burak
+- [Introducting Ark v2](https://brqgoo.medium.com/introducing-ark-v2-2e7ab378e87b) - Updated Ark protocol proposal 
+- [Arkade - technical Primer](https://docs.arkadeos.com/primer) 
+- [Covenant-less Ark](https://github.com/arkade-os/arkd/releases/tag/v0.2.0)
+- [Unlocking Liquidity Before Shared Output Expiration](https://blog.arklabs.xyz/unlock-liquidity-before-shared-output-expiration/)
+- [First Ark transaction on mainnet](https://blog.second.tech/demoing-the-first-ark-transactions-on-bitcoin-mainnet/)
+- [Introducing Erk and hArk - new Ark variants](https://blog.second.tech/erk-update/)
+- [What's the opportunity cost of Ark liquidity](https://blog.second.tech/survey-of-bitcoin-yield/)
+- [Native Assets on Bitcoin: Introducing Arkade Assets](https://blog.arklabs.xyz/native-assets-on-bitcoin-introducing-arkade-assets/) - Framework for bringing stablecoins and digital assets to Bitcoin via Arkade
+- [Bark's unified mailbox](https://blog.second.tech/unified-mailbox/) - New unified notification system for Bark wallets (Feb 2026)
+
+#### Ark v1 reading
+- [ARK video from Bitcoin Miami 2023](https://bitcointv.com/w/pVk3bPfKZ7YqDzsNZjz9tf?start=4h9m28s)
+- [ARK presentation from Bitcoin Miami 2023](https://docs.google.com/presentation/d/1xKIJt4CnUCFfxhIwDj_kW0Ecr0NcvN5bZ4SQexGJfmk/edit?usp=sharing)
+- [[bitcoin-dev] Ark: An Alternative Privacy-preserving Second Layer Solution](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2023-May/021694.html)
+- [Introducing Ark Blog Post](https://burakkeceli.medium.com/introducing-ark-6f87ae45e272)
+- [Rijndael's write up on how Ark works](https://primal.net/thread/note1cuv7mg7z0w7jvwp9mlsu0zt6acnw54avaj5r5zgdkxlpjnqp3g0s5c0yht)
+- [RubenSomsen's Simplest Ark Explanation](https://gist.github.com/RubenSomsen/a394beb1dea9e47e981216768e007454)
+- [Ark Whiteboard Masterclass with Burak & Robin](https://youtu.be/EocWax43QgQ)
+- [Bitcoin magazine: Introducing Ark](https://bitcoinmagazine.com/technical/how-ark-plans-to-scale-private-bitcoin-payments)
+- [BitGo blog: Will Burak’s Ark Solve Bitcoin Scaling?](https://blog.bitgo.com/will-buraks-ark-solve-bitcoin-scaling-f31e65535c3f)
+- [pippellia's Video Ark Explained - Bitcoin Layer 2 Protocol](https://rumble.com/v3nf9vd-ark-explained-bitcoin-layer-2-protocol.html)
+
+
+### Related Resources
+To explore other aspects of the Bitcoin and freedom tech ecosystem, check out these additional resource directories:
+- [nostr.net](https://www.nostr.net) - A complete guide to Nostr - projects, implementations, developer tools and all other resources
+- [liquidnetwork.wiki](https://liquidnetwork.wiki) - A curated list of Liquid Network resources, libraries, tools and applications
+- [pubky.tech](https://pubky.tech) - Pubky, an open protocol for censorship resistant web applications
+- [dlc.wiki](https://www.dlc.wiki) - Everything you need to know about Discreet Log Contracts
+- [ungovernable.tech](https://ungovernable.tech) - A collection of resources on encryption, privacy tools, and decentralized technologies
+- [lightning-network.tech](https://www.lightning-network.tech/)  - Essential tools, guides, and communities for Bitcoin Lightning Network node operators.
+- [ark-protocol.com](https://ark-protocol.com) - A directory of Ark protocol resources, libraries, tools and applications
+
+
+### Contributing
+
+If you'd like to add something to this list, please submit a [Pull Request on GitHub](https://github.com/aljazceru/awesome-ark-protocol/).
+
+This directory is maintained by [aljaz](https://disobey.dev/contact/). Your contributions help keep this information up-to-date and valuable.

@@ -1,0 +1,18 @@
+include: [".well-known"]
+remote_theme: aljazceru/hacker-gh-pages-theme
+plugins:
+- jekyll-remote-theme
+- jekyll-seo-tag
+
+title: Ark Protocol Directory
+description: A directory of Ark protocol resources, libraries, wallets, and developer tools. Ark is a Bitcoin layer-2 that batches many off-chain transactions into a single on-chain settlement.
+author: aljaz
+lang: en
+baseurl: ""
+url: "https://ark-protocol.com"
+
+
+show_downloads: false
+google_analytics: G-S6L2C90HW4
+plausible: ark-protocol.com
+plausible_script_url: https://analytics.cypherpunk.cloud/js/script.js
