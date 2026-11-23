@@ -67,6 +67,7 @@ This list tracks protocol specs, implementations (Arkade, Second, bark, etc.), w
 
 
 #### Projects using Ark
+- [Agent Escrow](https://github.com/yuvlero/mark) - Non-custodial 2-of-3 Bitcoin escrow for agents on Arkade, with Lightning in and out. Mark is the open-source CLI and MCP server an agent installs to use the service ([agentescrow.to](https://agentescrow.to))
 - [arkade-options](https://github.com/ArkLabsHQ/arkade-options) - Covered-call and limited-put option vaults collateralized by bitcoin on Arkade.
 - [arkade-taxi](https://github.com/ArkLabsHQ/arkade-taxi) - Dust-free Arkade transfers where an operator fronts dust and a covenant repays it.
 - [lnurl-server](https://github.com/ArkLabsHQ/lnurl-server) - LNURL-pay service for amountless Lightning receives into Arkade wallets.
